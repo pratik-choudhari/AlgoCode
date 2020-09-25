@@ -1,0 +1,5 @@
+data/*
+temp/*
+.idea/*
+.pyc/*
+*.csv
