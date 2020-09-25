@@ -35,26 +35,26 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 
 ## Get contributing🤩
 
-First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.
+1. First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.
 
 Click this button at the top of screen to fork this repo:
 ![](images/fork_button.jpg)
 
-Now head over to the forked repository and copy the clone HTTPS URL
+2. Now head over to the forked repository and copy the clone HTTPS URL
 ![](images/fork_URL.jpg)
 
 
-Next up clone the forked repo on to the local machine using:
+3. Next up clone the forked repo on to the local machine using:
 
 ``git clone <copied-fork-link>``
 
-Create a seperate branch to work on:
+4. Create a seperate branch to work on:
 
 The branch name must be selected according to the issue
 
 ``git checkout -b <branch-name>``
 
-After the contribution work is ready go ahead and add it to staging area:
+5. After the contribution work is ready go ahead and add it to staging area:
 
 ``git add -A``
 
