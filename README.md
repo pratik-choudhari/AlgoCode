@@ -26,10 +26,10 @@ First let's see when should you create an issue?
 ### To create an issue:
 
 Click on the issue button at top of the page
-![](images/issue1.jpg)
+![](images/issue1.JPG)
 
 Click new issue and fill up the details!
-![](images/issue2.jpg)
+![](images/issue2.JPG)
 
 __Note: Issues must clearly mention what they are addressing, if a problem is being put up then explain it using an example.__
 
@@ -66,4 +66,20 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 
 
 7. Issue a pull request from forked repo to this repo.
-8. Get your name in CONTRIBUTORS.md!
+    * Head over to `Pull Request` tab in the forked repo and click on `New Pull Request`
+        ![](images/pr1.JPG)
+    * Verify base and head repository name and branch names.
+        ![](images/pr2.jpg)
+    * Fill in the title and provide a concise description.
+        ![](images/pr3.JPG)
+    
+8. Wait for respose on the PR. Congratulations you just contributed to open source!
+
+9. Get your name in CONTRIBUTORS.md!
+
+## About me
+
+Hi! I am Pratik Choudhari an undergrad student. Recently I have discovered my liking for open source since then I have been working diligently towards it and here I am with this repository😄.
+
+Got something interesting to talk about? Let's connect on 
+
