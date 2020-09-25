@@ -25,11 +25,11 @@ First let's see when should you create an issue?
 
 ### To create an issue:
 
-Click on the issue button at top of the page
-![](images/issue1.JPG)
+Click on the issue button at top of the page:
+![](images/issues1.JPG)
 
 Click new issue and fill up the details!
-![](images/issue2.JPG)
+![](images/issues2.JPG)
 
 __Note: Issues must clearly mention what they are addressing, if a problem is being put up then explain it using an example.__
 
@@ -81,5 +81,7 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 
 Hi! I am Pratik Choudhari an undergrad student. Recently I have discovered my liking for open source since then I have been working diligently towards it and here I am with this repository😄.
 
-Got something interesting to talk about? Let's connect on 
+Got something interesting to talk about? I would love to hear back from you!
+
+Let's connect on [LinkedIn](https://www.linkedin.com/in/pratik-choudhari/), [Github](https://github.com/pratik-choudhari)
 
