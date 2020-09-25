@@ -35,34 +35,34 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 
 ## Get contributing🤩
 
-First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.
+1. First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.
 
-Click this button at the top of screen to fork this repo:
-![](images/fork_button.jpg)
+    Click this button at the top of screen to fork this repo:
+    ![](images/fork_button.jpg)
 
-Now head over to the forked repository and copy the clone HTTPS URL
-![](images/fork_URL.jpg)
+2. Now head over to the forked repository and copy the clone HTTPS URL
+    ![](images/fork_URL.jpg)
 
 
-Next up clone the forked repo on to the local machine using:
+3. Next up clone the forked repo on to the local machine using:
 
-``git clone <copied-fork-link>``
+    ``git clone <copied-fork-link>``
 
-Create a seperate branch to work on:
+4. Create a seperate branch to work on:
 
-The branch name must be selected according to the issue
+    The branch name must be selected according to the issue
 
-``git checkout -b <branch-name>``
+    ``git checkout -b <branch-name>``
 
-After the contribution work is ready go ahead and add it to staging area:
+5. After the contribution work is ready go ahead and add it to staging area:
 
-``git add -A``
+    ``git add -A``
 
-Now it is time to commit your changes and sync these changes to forked repo:
+    Now it is time to commit your changes and sync these changes to forked repo:
 
-``git commit -m <your_message>``
+    ``git commit -m <your_message>``
 
-``git push origin <branch-name>`` 
+    ``git push origin <branch-name>`` 
 
 
 7. Issue a pull request from forked repo to this repo.
