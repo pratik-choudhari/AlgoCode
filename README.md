@@ -56,24 +56,31 @@ First things first, In order to contribute you have to create a Pull Request fro
     git pull upstream master
     git push
     ```
-4. Create a seperate branch to work on:<br>
+5. Create a seperate branch to work on:<br>
 
     The branch name must be selected according to the issue<br>
 
     ``git checkout -b <branch-name>``
 
-5. After the contribution work is ready go ahead and add it to staging area:<br>
+6. Contributors must follow the directory structure guidelines:
+    * All files must be kept in a directory.
+    * Directory name must resemble the issue assigned.
+    * Based on the language used, create a directory inside the language directory.
+    * Example: If I am writing in `Python` I will create a directory inside `Python` directory.
+    * Changes done by you will not affect existing structure of the project.
+
+7. After the contribution work is ready go ahead and add it to staging area:<br>
 
     ``git add -A``
 
-6. Now it is time to commit your changes and sync these changes to forked repo:<br>
+8. Now it is time to commit your changes and sync these changes to forked repo:<br>
 
     ``git commit -m <your_message>``
 
     ``git push origin <branch-name>`` 
 
 
-7. Issue a [pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/) from forked repo to this repo:<br>
+9. Issue a [pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/) from forked repo to this repo:<br>
     * Head over to `Pull Request` tab in the forked repo and click on `New Pull Request`
         ![](images/pr1.JPG)
     * Verify base and head repository name and branch names.
@@ -81,9 +88,9 @@ First things first, In order to contribute you have to create a Pull Request fro
     * Fill in the title and provide a concise description.
         ![](images/pr3.JPG)
     
-8. Wait for respose on the PR. Congratulations you just contributed to open source!
+10. Wait for respose on the PR. Congratulations you just contributed to open source!
 
-9. Get your name in CONTRIBUTORS.md!
+11. Get your name in CONTRIBUTORS.md!
 
 ## About me
 
