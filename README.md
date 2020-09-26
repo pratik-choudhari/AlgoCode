@@ -35,9 +35,10 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 
 ## Get contributing🤩
 
-1. First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.
+First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.<br>
+![](images/github-fork-local-download.png)
 
-    Click this button at the top of screen to fork this repo:<br>
+1. Click this button at the top of screen to fork this repo:<br>
     ![](images/fork_button.jpg)
 
 2. Now head over to the forked repository and copy the clone HTTPS URL:<br>
@@ -47,7 +48,14 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 3. Next up clone the forked repo on to the local machine using:<br>
 
     ``git clone <copied-fork-link>``
-
+    
+4. It is critical to keep your [forked repository in sync the upstream](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) repository so merge conflicts can be avoided:
+    ```
+    git remote add upstream https://github.com/pratik-choudhari/AlgoCode.git
+    git fetch upstream
+    git pull upstream master
+    git push
+    ```
 4. Create a seperate branch to work on:<br>
 
     The branch name must be selected according to the issue<br>
@@ -65,7 +73,7 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
     ``git push origin <branch-name>`` 
 
 
-7. Issue a pull request from forked repo to this repo:<br>
+7. Issue a [pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/) from forked repo to this repo:<br>
     * Head over to `Pull Request` tab in the forked repo and click on `New Pull Request`
         ![](images/pr1.JPG)
     * Verify base and head repository name and branch names.
