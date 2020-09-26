@@ -15,7 +15,7 @@ Hey there!👋
 
 ## What can you do here?
 * You can solve questions put up by contributors.
-* If you have a coding problem in your mind, feel free to create an issue.
+* You can put up a problem yourself.
 
 ## Steps to put up an issue:
 
