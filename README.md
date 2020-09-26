@@ -68,6 +68,7 @@ First things first, In order to contribute you have to create a Pull Request fro
     * Based on the language used, create a directory inside the language directory.
     * Example: If I am writing in `Python` I will create a directory inside `Python` directory.
     * Changes done by you will not affect existing structure of the project.
+    * Add a README.md with your name and link to github profile using \[your-name](link-to-profile)
 
 7. After the contribution work is ready go ahead and add it to staging area:<br>
 
