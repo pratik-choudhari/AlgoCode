@@ -3,7 +3,7 @@
 <!-- Tell us more about the issue.-->
 
 ## Type of issue
-- NOTE: __Check boxes using [x]__
+NOTE: **Check boxes using [x]**
 
 - [ ] Feature
 - [ ] Bug
