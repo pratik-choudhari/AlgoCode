@@ -14,7 +14,7 @@
 Hey there!👋 
 
 ## What can you do here?
-* You can solve questions put up by contributors.
+* You can solve questions put up by contributors (tag moderators in comment to assign an issue to you).
 * You can put up a problem yourself.
 
 ## Steps to put up an issue:
