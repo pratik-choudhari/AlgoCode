@@ -1,13 +1,13 @@
-# Description
+<!-- Select appropriate heading, delete rest-->
+# Feature ✅
+# Bug 🐞
+# Documentation 📑
 
+## Description
 <!-- Tell us more about the issue.-->
 
-## Type of issue
-NOTE: **Check boxes using [x]**
-
-- [ ] Feature
-- [ ] Bug
-- [ ] Documentation
+## Example
+<!-- Provide example if adding a feature else delete -->
 
 ## Checklist:
 
