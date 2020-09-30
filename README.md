@@ -16,11 +16,12 @@ Hey there!👋
 ## What can you do here?
 * You can solve questions put up by contributors (tag moderators in comment to assign an issue to you).
 * You can put up a problem yourself.
+* You can even contribute a project made by yourself!
 
 ## Steps to put up an issue:
 
 First let's see when should you create an issue?
-* If you want to contribute a question.
+* If you want to contribute a question or project.
 * If you have a better solution to an existing solved issue.
 
 ### To create an issue:
@@ -67,6 +68,7 @@ First things first, In order to contribute you have to create a Pull Request fro
     * Directory name must resemble the issue assigned.
     * Based on the language used, create a directory inside the language directory.
     * Example: If I am writing in `Python` I will create a directory inside `Python` directory.
+    * In case a project is being contributed make sure to add the files inside a directory(name according to project) which in turn must be placed inside the `Projects` directory.
     * Changes done by you will not affect existing structure of the project.
     * Add a README.md with your name and link to github profile using \[your-name](link-to-profile)
 
