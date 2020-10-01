@@ -12,7 +12,7 @@ bool isAnagram(string a, string b){
 
 	// Logic - After sorting if the two strings are equal, they are anagrams. 
 
-	// Sort stl in the algorithms header file is used for sorting. 
+	// Sort stl in the algorithm header file is used for sorting. 
 	// Sorting of a strings means alphabetically, i.e. bcda after sorting become abcd 
 	sort(a.begin(), a.end());
 	sort(b.begin(), b.end());
