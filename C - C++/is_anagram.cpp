@@ -1,6 +1,6 @@
 /*	Language - cpp 
 	This code takes 2 strings as inputs and tells
-	is they are anagrams 
+	if they are anagrams 
 	Note: all letters must be Lowercase/Uppercase */
 
 #include <iostream>
