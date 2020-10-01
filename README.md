@@ -39,7 +39,7 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.<br>
 <img src="images/github-fork-local-download.png" height="300" width="650" ></img>
 
-1. Click this button at the top of screen to fork this repo:<br>
+1. Click this button at the top of screen to fork this repo, don't forget to star the repository!:<br>
     ![](images/fork_button.jpg)
 
 2. Now head over to the forked repository and copy the clone HTTPS URL:<br>
