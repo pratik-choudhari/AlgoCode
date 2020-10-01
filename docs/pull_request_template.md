@@ -25,3 +25,4 @@ NOTE: **Check boxes using [x]**
 - [ ] I have included a requirements.txt file (if external libraries are required.)
 - [ ] My changes do not produce any warnings.
 - [ ] I have added a working sample/screenshot of the script.
+- [ ] I have checked for trailing spaces in file names and none have them.
