@@ -95,6 +95,12 @@ First things first, In order to contribute you have to create a Pull Request fro
 
 11. Get your name in CONTRIBUTORS.md!
 
+## Please read
+[CODE_OF_CONDUCT.md](https://github.com/pratik-choudhari/AlgoCode/blob/master/CODE_OF_CONDUCT.md)
+
+## Our contrubitors(updated daily)
+[CONTRIBUTORS.md](https://github.com/pratik-choudhari/AlgoCode/blob/master/CONTRIBUTORS.md)
+
 ## About me
 
 Hi! I am Pratik Choudhari an undergrad student. Recently I have discovered my liking for open source since then I have been working diligently towards it and here I am with this repository😄.
