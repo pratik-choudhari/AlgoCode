@@ -21,7 +21,7 @@ NOTE: **Check boxes using [x]**
 - [ ] My code follows the style guidelines of this project.
 - [ ] My Pull Request has a descriptive title. (not a vague title like `Update index.md`)
 - [ ] I have commented on my code, particularly in hard-to-understand areas.
-- [ ] I have created a helpful and easy to understand `README.md`, according to the given [`README_TEMPLATE.`](https://github.com/Python-World/Python_and_the_Web/blob/master/README_TEMPLATE.md)
+- [ ] I have created a helpful and easy to understand `README.md`, with problem description and my name.
 - [ ] I have included a requirements.txt file (if external libraries are required.)
 - [ ] My changes do not produce any warnings.
 - [ ] I have added a working sample/screenshot of the script.
