@@ -28,7 +28,7 @@ int main()
 	// Taking input
 	cin >> a >> b;
 
-	// Function returns true is the strings are anagrams. 
+	// Function returns true if the strings are anagrams. 
 	if(isAnagram(a, b)){
 		cout << a << " & " << b << " are anagrams.";
 	} else {
