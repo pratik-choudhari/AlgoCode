@@ -30,9 +30,9 @@ int main()
 
 	// Function returns true if the strings are anagrams. 
 	if(isAnagram(a, b)){
-		cout << a << " & " << b << " are anagrams.";
+		cout << "Yes";
 	} else {
-		cout << a << " & " << b << " are NOT anagrams.";
+		cout << "No";
 	}
 	return 0;
 }
