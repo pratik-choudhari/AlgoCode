@@ -20,7 +20,7 @@ int evaluate(string exp)
 {
     stack<int> s1; 
     stack<char> s2; 
-    int i,x,y,z,key;
+    int i,x,y,z;
     i=0;
     while(exp[i]!='\0')
     {
