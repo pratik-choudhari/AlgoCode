@@ -14,7 +14,7 @@
 Hey there!👋 
 
 ## What can you do here?
-* You can solve questions put up by contributors (tag moderators in comment to assign an issue to you).
+* You can solve questions put up by contributors (tag moderators in comment to assign an issue to you and mention the language you will be using).
 * You can put up a problem yourself.
 * You can even contribute a project made by yourself!
 
@@ -100,6 +100,14 @@ First things first, In order to contribute you have to create a Pull Request fro
 
 ## Our contrubitors(updated daily)
 [CONTRIBUTORS.md](https://github.com/pratik-choudhari/AlgoCode/blob/master/CONTRIBUTORS.md)
+
+## Meaning of labels
+
+__incomplete__: PR was not structured as mentioned in CODE_OF_CONDUCT, mising README, missing folder, etc.
+
+__early bird__: PR was made even before creating an issue or PR was made by a person unassigned to the task.
+
+__star✨__: Star this repo!
 
 ## About me
 
