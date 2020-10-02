@@ -1,1 +1,1 @@
-https://github.com/purnima11-igdtu [purnima]
+[purnima](https://github.com/purnima11-igdtu)
