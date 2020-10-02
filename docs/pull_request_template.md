@@ -24,5 +24,6 @@ NOTE: **Check boxes using [x]**
 - [ ] I have created a helpful and easy to understand `README.md`, with problem description and my name.
 - [ ] I have included a requirements.txt file (if external libraries are required.)
 - [ ] My changes do not produce any warnings.
+- [ ] I have starred this repository.
 - [ ] I have added a working sample/screenshot of the script.
 - [ ] I have checked for trailing spaces in file names and none have them.
