@@ -1,1 +1,1 @@
-[Devang Mukherjee] (https://github.com/devangmukherjee)
+[Devang Mukherjee](https://github.com/devangmukherjee)
