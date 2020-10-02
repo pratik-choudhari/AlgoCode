@@ -7,3 +7,5 @@ The listed codes are in C++ and provide an overview of the searching tree method
 6. Red Black Tree
 7. Skip LIst
 8. Tries
+
+By - [Ritesh Kumar](github.com/ritesh055) 
