@@ -11,3 +11,5 @@ $ sort.py
 - You will be prompted to enter a sorting algorithm type (bubble, insertion, selection). 
 - Then you will be prompted to enter a list of numbers on a single line with spaces separating the numbers (ex: 5 3 8 4 6). 
 - Then the algorithm will run and output the sorted list.
+
+![Screenshot of Running File](screenshot_results.PNG)
