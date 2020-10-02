@@ -8,3 +8,8 @@ Cheers to every single one of them!
 * [vedanthv](https://github.com/vedanthv)
 * [utkarshbajaj](https://github.com/utkarshbajaj)
 * [AnweshaDan](https://github.com/AnweshaDan)
+* [sauravUppoor](https://github.com/sauravUppoor)
+* [instareasy](https://github.com/instareasy)
+* [DarkCode01](https://github.com/DarkCode01)
+* [Raksha25](https://github.com/Raksha25)
+* [instareasy](https://github.com/instareasy)
