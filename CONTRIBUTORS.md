@@ -13,3 +13,4 @@ Cheers to every single one of them!
 * [DarkCode01](https://github.com/DarkCode01)
 * [Raksha25](https://github.com/Raksha25)
 * [instareasy](https://github.com/instareasy)
+* [bowo_anakdesa](https://github.com/bowo-anakdesa)
