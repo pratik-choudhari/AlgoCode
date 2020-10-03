@@ -3,3 +3,4 @@ temp/*
 .idea/*
 .pyc/*
 *.csv
+Javascript/Calculator/node_modules
