@@ -1,12 +1,23 @@
-limit = int(input())
+def SieveOfEratosthenes(n): 
+      
+    
+    prime = [True for i in range(n+1)] 
+    p = 2
+    while (p * p <= n): 
+          
+        # If prime[p] is not changed, then it is a prime 
+        if (prime[p] == True): 
+              
+           
+            for i in range(p * p, n+1, p): 
+                prime[i] = False
+        p += 1
+      
+    for p in range(2, n+1): 
+        if prime[p]: 
+            print(p), 
+  
 
-for i in range(2, limit+1):
-    is_prime = True
-    for j in range(2, int(i**0.5)+1):
-        if i % j == 0:
-            is_prime = False
-            break
-    if is_prime:
-        print(i, end=" ")
-
-print()
+if __name__=='__main__': 
+    n = int(input());
+    SieveOfEratosthenes(n) 
