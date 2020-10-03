@@ -6,7 +6,7 @@ This is a simple checker of credit card number
 
 ```sh
 ~ $ cd Javascript/ValidCreditCardNumber
-~ $ node app.js
+~ $ node ValidCreditCard.js
 ```
 
 ### Usage:
