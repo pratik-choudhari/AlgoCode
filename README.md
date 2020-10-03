@@ -4,12 +4,15 @@
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 
+![](https://img.shields.io/badge/Josh-High-Red)
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
+
 ![](https://img.shields.io/badge/Python-green)
 ![](https://img.shields.io/badge/Java-blue)
 ![](https://img.shields.io/badge/C-yellowgreen)
 ![](https://img.shields.io/badge/C++-blueviolet)
+![](https://img.shields.io/badge/Js-yellow)
 
 Hey there!👋 
 
