@@ -1,4 +1,4 @@
-# another solution
+# A possible solution
 import itertools 
 n, k = list(map(int, input("enter range and size: ").split()))
 
