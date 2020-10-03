@@ -16,16 +16,16 @@ After executing the prgram provide the values of a and b in first line and value
 ## Example
 First input will be 1st number with real and imaginary part similarly with second number.
 
-<b>Input:</b>
-2 1
+<b>Input:</b> <br>
+2 1 <br>
 5 6
 
-<b>Output:</b>
-7 + 7i
--3 - 5i
-4 + 17i
-0.26-0.11i
-2.24
-7.81
+<b>Output:</b> <br>
+7 + 7i <br>
+-3 - 5i <br>
+4 + 17i <br>
+0.26-0.11i <br>
+2.24 <br>
+7.81 <br>
 
 By : [Kartick Gupta](https://github.com/kartickgupta) 
