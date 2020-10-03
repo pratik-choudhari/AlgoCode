@@ -45,7 +45,8 @@ int main()
     variance /= N; 
     double sd = pow(variance,0.5); 
 
-    cout<<"\nRange : "<<range<<"\n";
+    cout<<"\n";
+    cout<<"Range : "<<range<<"\n";
     cout<<"Variance : "<<round(variance)<<"\n"; 
     cout<<"Standard Deviation : "<<round(sd)<<"\n";
     return 0;
