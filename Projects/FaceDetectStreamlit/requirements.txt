@@ -1,0 +1,6 @@
+streamlit
+opencv-contrib-python-headless
+pytesseract 
+opencv-python
+PIL
+numpy
