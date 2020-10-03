@@ -18,3 +18,6 @@ Cheers to every single one of them!
 * [2tanayk](https://github.com/2tanayk)
 * [AmyWeitzman](https://github.com/AmyWeitzman)
 * [v-sonawane](https://github.com/v-sonawane)
+* [snape-here](https://github.com/snape-here)
+* [Utkarshn10](https://github.com/Utkarshn10)
+* [snapehere](https://github.com/snapehere)
