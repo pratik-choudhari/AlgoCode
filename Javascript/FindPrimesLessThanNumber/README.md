@@ -10,5 +10,5 @@ Input: 27
 ### Sample Output
 Output: 2 3 5 7 11 13 17 19 23
 
-## Author 
+## Contributor 
 [Jyoti Shinde](https://github.com/statst)
