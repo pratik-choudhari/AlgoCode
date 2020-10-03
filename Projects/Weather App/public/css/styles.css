@@ -53,3 +53,8 @@ button {
      color: white;
      padding: 8px;
 }
+
+#projectInfo a{
+    color: #888;
+    text-decoration: none;
+}
