@@ -1,3 +1,3 @@
-![](screenshot_results.png)
+![](screenshot_results.PNG)
 
 [AmyWeitzman](https://github.com/AmyWeitzman)
