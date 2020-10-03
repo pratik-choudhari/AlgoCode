@@ -8,7 +8,7 @@ Given 2 numbers N and K and considering you have numbers ranging from 1 to N, pr
 Input -
 5 3
 
-Output -
+Output -<br>
 1 2 3 <br>
 1 2 4<br>
 1 2 5<br>
