@@ -10,23 +10,24 @@ public class Validator {
     }
 
     private static String checkCard(String card) {
-        if (card.length() == 16) {
+        if (card.length() == 16) { // number without delimiters
+            // check first number to be in range [4, 6]
             if (!(card.charAt(0) >= '4' && card.charAt(0) <= '6')) {
                 return "Invalid";
             }
-
             if (numbersOnly(card) && checkConsecutiveDigits(card)) {
                 return "Valid";
             }
             return "Invalid";
-        } else if (card.length() == 19) {
-            for (int i = 0; i < 3; i++) {
+        } else if (card.length() == 19) { // number with 3(?) delimiters
+            for (int i = 0; i < 3; i++) { // check that there are only '-' delimiters
                 if (card.charAt(i * 5 + 4) != '-') {
                     return "Invalid";
                 }
             }
             card = card.replaceAll("-", "");
-            if (numbersOnly(card) && checkConsecutiveDigits(card)) {
+            // check that there were only 3 delimiters
+            if (card.length() == 16 && numbersOnly(card) && checkConsecutiveDigits(card)) {
                 return "Valid";
             }
             return "Invalid";
@@ -35,6 +36,7 @@ public class Validator {
         }
     }
 
+    // check that string contains numbers only
     private static boolean numbersOnly(String card) {
         try {
             Long.parseLong(card);
@@ -44,6 +46,7 @@ public class Validator {
         return true;
     }
 
+    // primitive function to check for consecutive digits
     private static boolean checkConsecutiveDigits(String card) {
         int counter = 0;
         char ch = 0;
