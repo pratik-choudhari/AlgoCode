@@ -31,4 +31,4 @@ def findArmstrong(low, high) :
 num1 = 0
 num2 = int(input())
 findArmstrong(num1, num2) 
-print("") 
+print("")    
