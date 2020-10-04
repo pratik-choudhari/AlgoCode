@@ -18,9 +18,11 @@ python calculator.py
 ![](images/standard_calc.PNG)
   
 2. Switch from simple to scientific
+
 ![](images/menu.png)
 
 3. Scientific Calculator
+
 ![](images/scientific_calc.PNG)
 
 ## Contributor
