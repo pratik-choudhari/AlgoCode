@@ -8,24 +8,20 @@ Checks if credit card number is valid by the parameters:\
 ► It must NOT have 4 or more consecutive repeated digits.\
 ## Examples
 ```
-Input: 5123847512398432
+Input: 4253625879615786
 Output: Yes
 ```
 ```
-Input your card number: 6213-9540-8576-2313
-Valid
+Input: 5122-2368-7954-3214
+Output: Yes
 ```
 ```
-Input your card number: 3512322254445231
-Invalid
+Input: 42536258796157867
+Output: No
 ```
 ```
-Input your card number: 5432-4311-1123-5432
-Invalid
-```
-```
-Input your card number: 4321-5432-6543_1234
-Invalid
+Input: 44244x4424442444
+Output: No
 ```
 ## Contributor
 
