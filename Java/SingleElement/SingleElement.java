@@ -1,5 +1,3 @@
-package Java.SingleElement;
-
 import java.util.Scanner;
 
 public class SingleElement {
