@@ -6,8 +6,8 @@ The menu bar contains a button named 'File' which gives the option to switch to 
 The Scientific Calculator provides additional operations like sin, cos, tan, square, cube, factorial, log, inverse and a few more..
 
 ### Dependencies-
-Python
-Tkinter
+Python v3
+ and Tkinter
 
 ### To run - 
 python calculator.py
@@ -19,5 +19,5 @@ python calculator.py
 2. Scientific Calculator
 ![](images/scientifc_calc.PNG)
 
-Author Name-
+## Contributor
 [Pallavi Vaswani](https://github.com/pallavivaswani)
