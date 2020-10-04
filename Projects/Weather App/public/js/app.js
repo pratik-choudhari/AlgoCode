@@ -23,6 +23,7 @@ weatherForm.addEventListener('submit', (e) => {
         } else {
             messageOne.textContent = data.location;
             messageTwo.textContent = data.forecastData;
+            document.getElementById('wether-image').src = data.weatherImage;
         }
     })
 })
