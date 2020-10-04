@@ -11,3 +11,8 @@ print()
 print("enter the value of d:", end=" ")
 d = int(input())
 rotateByd(lst)
+
+#In this algo we first reversed the elements upto index D (excluded)
+#then we reversed the elements from Dth index to the end
+#finally we reversed the entire array
+#doing so, our array gets reversed by D elements clockwise
