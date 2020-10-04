@@ -24,3 +24,4 @@ Cheers to every single one of them!
 * [Ritesh055](https://github.com/Ritesh055)
 * [therealansh](https://github.com/therealansh)
 * [Anshul275](https://github.com/Anshul275)
+* [Naman Gupta](https://github.com/naman-150200)
