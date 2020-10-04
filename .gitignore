@@ -4,3 +4,4 @@ temp/*
 .pyc/*
 *.csv
 Javascript/Calculator/node_modules
+Javascript/CreditCardValidator/node_modules
