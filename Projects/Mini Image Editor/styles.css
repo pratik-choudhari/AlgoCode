@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+body {
+    text-align: center;
+}
+
+nav {
+    background-color: #3498db !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.hero {
+    margin: 1em 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.custom-file {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-top: 2em;
+}
+
+.slider-controls {
+    margin: 1em 0 2em 0;
+}
+
+.info {
+    display: block;
+    text-align: left;
+    margin: 1em 0;
+    font-style: italic;
+    color: red;
+}
+
+.resize {
+    margin: 3em 0;
+}
+
+.resize-btn {
+    margin-top: 2em;
+}
+
+.btn-group {
+    margin: 10px 20px;
+    height: 2em;
+    width: 6em;
+}
+
+.button-controls > * {
+    margin: 0 10px;
+}
+
+.large-options > * {
+    margin: 0 20px 2em 20px;
+}
+
+.center {
+    text-align: center;
+}
