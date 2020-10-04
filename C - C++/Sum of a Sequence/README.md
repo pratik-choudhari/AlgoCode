@@ -13,3 +13,5 @@ Input: 3
 Output:
 Sequence: 1 3 5
 Sum: 9
+
+Created By : www.github.com/vamsimudaliar 
