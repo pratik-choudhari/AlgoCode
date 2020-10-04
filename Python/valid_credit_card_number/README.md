@@ -1,15 +1,15 @@
-# Credit card validator
-Checks if credit card number is valid by the parameters:__
-► It must start with a 4, 5 or 6.__
-► It must contain exactly 16 digits.__
-► It must only consist of digits (0-9).__
-► It may have digits in groups of 4, separated by one hyphen "-".__
-► It must NOT use any other separator like ' ' , '_', etc.__
-► It must NOT have 4 or more consecutive repeated digits.__
+# validCreditCardNumber
+Checks if credit card number is valid by the parameters:\
+► It must start with a 4, 5 or 6.\
+► It must contain exactly 16 digits.\
+► It must only consist of digits (0-9).\
+► It may have digits in groups of 4, separated by one hyphen "-".\
+► It must NOT use any other separator like ' ' , '_', etc.\
+► It must NOT have 4 or more consecutive repeated digits.\
 ## Examples
-
-```Input your card number: 5123847512398432
-Valid
+```
+Input: 5123847512398432
+Output: Yes
 ```
 ```
 Input your card number: 6213-9540-8576-2313
@@ -29,4 +29,4 @@ Invalid
 ```
 ## Contributor
 
-[Diegoslourenco] (https://github.com/Diegoslourenco)
+[Diegoslourenco](https://github.com/Diegoslourenco)
