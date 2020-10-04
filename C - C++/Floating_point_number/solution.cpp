@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     string s;
-    int i,flag=0,count=0,pos,t=0;
+    unsigned int i,flag=0,count=0,pos,t=0,size=0; // no need to take signed int as the input is compared as characters
     cout<<"Enter any number ";
     cin>>s;
     if(s[0]=='+' || s[0]=='-'){
