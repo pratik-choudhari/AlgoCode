@@ -15,3 +15,5 @@ Output:
 
 Challenge here is to figure out a way efficient than a brute force approach, dividing every number by n
 Contributors are supposed to mention their coding language while asking for assignment
+
+Auther:-SHWETABH SAXENA
