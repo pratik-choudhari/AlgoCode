@@ -14,10 +14,10 @@ python calculator.py
 
 ### Screenshots-
 1. Simple Calculator
-![](images/standard_calc.PNG)
+![](/images/standard_calc.PNG)
 
 2. Scientific Calculator
-![](images/scientifc_calc.PNG)
+![](/images/scientific_calc.PNG)
 
 ## Contributor
 [Pallavi Vaswani](https://github.com/pallavivaswani)
