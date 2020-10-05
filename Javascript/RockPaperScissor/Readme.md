@@ -14,4 +14,5 @@ computer: Paper
 # Result
 alert("U pick a Rock and computer pick a Paper, Result Win)
 
-
+# Contributor
+[Xenoare](https://github.com/xenoare)
