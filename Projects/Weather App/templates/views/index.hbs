@@ -6,9 +6,11 @@
     <title>Weather</title>
     <link rel="icon" href="./img/weather.png">
     <link rel="stylesheet" href="./css/styles.css">
+    {{!-- Font Awesome --}}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 </head>
-<body>
-    <div class="main-content">
+<body onload="init()">
+    <div class="main-content" id="main">
     {{>header}}
     <p>Use this site to get your weather!</p>
 
@@ -16,9 +18,10 @@
             <input placeholder="Enter city name">
             <button>Search</button>
         </form>
-    <div class="output">
-        <div>
+    <div class="output" id="1">
+        <div class="head" id="main-h">
            <img id="wether-image" src="" alt="" srcset="">
+           <i class="far fa-heart" id="heart"></i>
         </div>
         <hr>
         <div>
