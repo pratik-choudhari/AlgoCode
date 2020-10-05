@@ -1,0 +1,9 @@
+import math as m
+k=int(input())
+def isPerfectSquare(x): 
+    s = int(m.sqrt(x)) 
+    return s*s == x
+for i in range(k):
+    n=int(input())
+    a=isPerfectSquare(5*n*n + 4) or isPerfectSquare(5*n*n - 4)
+    print(a)
