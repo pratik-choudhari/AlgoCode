@@ -1,3 +1,4 @@
+Contributed by: Nikhil Shanbhag
 Problem Statement: Compress the elements of a string by calculating number of repetitions for every character.
 
 Example
