@@ -61,7 +61,7 @@ Cases | Time Complexity | Space Complexity
 Best Case | O(n) | O(1)
 Worst Case | O(n) | O(1)
 
-## 1. Ternary Search
+## 3. Ternary Search
 
 Like the binary search, it also separates the lists into sub-lists. This procedure divides the list into three parts using two intermediate mid values.
 
@@ -99,7 +99,7 @@ Best Case | O(log3 n) | O(1)
 Worst Case | O(log3 n) | O(1)
 
 
-## 1. Median Search
+## 4. Median Search
 
 Median is the middle value of a set of data. To determine the median value in a sequence of numbers, the numbers must first be arranged in ascending order.
 
@@ -127,7 +127,7 @@ Best Case | O(nlogn) | O(1)
 Worst Case | O(nlogn) | O(1)
 
 
-## 1. Fibonacci Search
+## 5. Fibonacci Search
 
 Fibonacci Search is a comparison-based technique that uses Fibonacci numbers to search an element in a sorted array.
 
