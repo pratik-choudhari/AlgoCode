@@ -28,3 +28,4 @@ Cheers to every single one of them!
 * [Anshul275](https://github.com/Anshul275)
 * [AlessandroArosio](https://github.com/AlessandroArosio)
 * [shivam-S-bisht](https://github.com/shivam-S-bisht)
+* [kishan-patel](https://github.com/kishanpatel22)
