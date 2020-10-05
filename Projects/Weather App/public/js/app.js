@@ -94,7 +94,7 @@ main.addEventListener('click', (e) => {
             output.style.display = "none";
             newItem(placeName);
            }
-        else{
+        else if(e.target.classList.contains('fa-heart')){
             alert('It is already liked!');
         }
 });
