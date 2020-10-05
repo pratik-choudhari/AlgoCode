@@ -2,7 +2,8 @@
 using namespace std; 
   
 void compress(string s){ 
-    for (int i = 0; s[i] != '\0'; i++){  
+    for (int i = 0; s[i] != '\0'; i++){ 
+      //counting occurrences of s[i]
         int count = 1; 
         while (s[i] == s[i + 1]){ 
             i++; 
