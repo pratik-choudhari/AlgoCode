@@ -7,6 +7,9 @@
 ![](https://img.shields.io/badge/Josh-High-Red)
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
+![](https://img.shields.io/github/issues/pratik-choudhari/algocode)
+![](https://img.shields.io/github/contributors/pratik-choudhari/algocode)
+![](https://img.shields.io/github/issues-pr/pratik-choudhari/algocode)
 
 ![](https://img.shields.io/badge/Python-green)
 ![](https://img.shields.io/badge/Java-blue)

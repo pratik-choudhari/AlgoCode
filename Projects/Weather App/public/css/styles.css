@@ -1,0 +1,84 @@
+body{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.output{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    display: none;
+    color: #333333;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 2px solid #e5e5e5;
+}
+
+.output img{
+    border-radius: 10px;
+    display: inline;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer{
+    color: #888;
+    border-top: 1px solid #eee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+        border: 1px solid #ccc;
+        padding: 8px;
+    }
+
+button {
+     cursor: pointer;
+     border: 1px solid #888;
+     background: #888;
+     color: white;
+     padding: 8px;
+}
+
+#projectInfo a{
+    color: #888;
+    text-decoration: none;
+}

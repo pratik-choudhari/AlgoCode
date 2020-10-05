@@ -1,3 +1,5 @@
+# This list is not updated refer to contributors below repository description.
+
 # Our contributors:
 Cheers to every single one of them!
 
@@ -20,5 +22,8 @@ Cheers to every single one of them!
 * [v-sonawane](https://github.com/v-sonawane)
 * [snape-here](https://github.com/snape-here)
 * [Utkarshn10](https://github.com/Utkarshn10)
-* [snapehere](https://github.com/snapehere)
+* [srushtips](https://github.com/srushtips)
+* [Ritesh055](https://github.com/Ritesh055)
+* [therealansh](https://github.com/therealansh)
+* [Anshul275](https://github.com/Anshul275)
 * [shivam-S-bisht](https://github.com/shivam-S-bisht)
