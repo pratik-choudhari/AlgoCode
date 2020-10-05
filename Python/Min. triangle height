@@ -1,0 +1,3 @@
+import math 
+b,a=input().split()
+print(math.ceil((2*int(a))/int(b)))
