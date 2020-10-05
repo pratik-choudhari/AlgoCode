@@ -15,7 +15,6 @@ body{
 }
 
 .output{
-    display: flex;
     justify-content: space-around;
     background-color: #f6f6f6;
     padding: 10px;
@@ -27,9 +26,31 @@ body{
     border: 2px solid #e5e5e5;
 }
 
+.liked {
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    color: #333333;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 2px solid #e5e5e5;
+}
+
 .output img{
     border-radius: 10px;
     display: inline;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heart{
+    font-size: 2rem;
+    color: #ea4544;
 }
 
 hr{
