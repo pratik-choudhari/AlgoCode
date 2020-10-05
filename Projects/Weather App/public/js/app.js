@@ -89,13 +89,14 @@ main.addEventListener('click', (e) => {
           Store.delArr(index);
           e.target.parentElement.parentElement.remove();
        }
-       else{
-           if((placeName != "") && !isLiked(placeName)){
+       else if((placeName != "") && !isLiked(placeName)){
             Store.addArr(placeName);
             output.style.display = "none";
             newItem(placeName);
            }
-       }
+        else if(e.target.classList.contains('fa-heart')){
+            alert('It is already liked!');
+        }
 });
 
 
