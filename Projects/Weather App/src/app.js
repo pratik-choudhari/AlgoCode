@@ -55,7 +55,7 @@ app.get('/weather', (req,res) => {
                 error //shorthand syntax
             })
         }
-        forecast(longitude,latitude, (error, forecastData) => {
+        forecast(longitude,latitude, (error, forecastData, weatherImage) => {
             if(error){
                 return res.send({
                     error
@@ -64,22 +64,11 @@ app.get('/weather', (req,res) => {
             res.send({
                 address,
                 location: location,
-                forecastData: forecastData
+                forecastData: forecastData,
+                weatherImage: weatherImage
             })
           })
     
-    })
-})
-
-app.get('/products', (req, res) => {
-    if(!req.query.search){
-        return res.send({
-            error: 'You must provide a search term'
-        })
-    }
-    console.log(req.query.search);
-    res.send({
-        products: []
     })
 })
 
@@ -100,5 +89,5 @@ app.get('*', (req,res) => {
 })
 
 app.listen(port, () => {
-    console.log("Server is up on port 3000 " + port);
+    console.log(`Server is up on port ${port}`);
 })
