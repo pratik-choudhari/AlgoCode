@@ -4,7 +4,7 @@ Algorithm | Link
 ------------ | -------------
 Binary Search | [link!](https://github.com/dhrubajyoti89/AlgoCode/blob/dhrubajyoti89-searchalgo/C%20-%20C%2B%2B/Searching-Algorithms/binarysearch.cpp)
 Linear Search | [link!](https://github.com/dhrubajyoti89/AlgoCode/blob/dhrubajyoti89-searchalgo/C%20-%20C%2B%2B/Searching-Algorithms/linearsearch.cpp)
-
+Ternary Search | [link!](./ternary.cpp)
 ## 1. Binary Search
 
 Binary search is another searching algorithm in C++. It is also known as half interval search algorithm. It is efficient and fast searching algorithm. If we want to search any element in the list then the only condition required is that the elements in the list must be in sorted order. It works by repeatedly dividing in half the portion of the list that could contain the item, until you’ve narrowed down the possible locations to just one.
