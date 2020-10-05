@@ -27,4 +27,4 @@ NOTE: **Check boxes using [x]**
 - [ ] I have starred this repository.
 - [ ] I have added a working sample/screenshot of the script.
 - [ ] I have checked for trailing spaces in file names and none have them.
-- [ ] I have added my name in CONTRIBUTORS.md
+- [ ] I have added \(your-name)[your-github-profile-link] in CONTRIBUTORS.md
