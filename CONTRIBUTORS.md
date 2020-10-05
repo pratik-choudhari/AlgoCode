@@ -1,3 +1,5 @@
+# This list is not updated refer to contributors below repository description.
+
 # Our contributors:
 Cheers to every single one of them!
 
@@ -25,3 +27,4 @@ Cheers to every single one of them!
 * [therealansh](https://github.com/therealansh)
 * [Anshul275](https://github.com/Anshul275)
 * [AlessandroArosio](https://github.com/AlessandroArosio)
+* [shivam-S-bisht](https://github.com/shivam-S-bisht)
