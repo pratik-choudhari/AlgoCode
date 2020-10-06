@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class SequenceSum {
 	public static void main(String[] args) {
 		Scanner sn=new Scanner(System.in);
