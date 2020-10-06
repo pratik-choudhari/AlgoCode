@@ -33,7 +33,7 @@ var MATRIX = [
 
 celeb = FindCeleb(MATRIX);
 if(celeb == -1) {
-    console.log("There is no celebrity.")
+    console.log("No celebrity")
 } else {
     console.log(`id = ${cand}`)
 }
