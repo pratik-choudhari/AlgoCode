@@ -1,6 +1,6 @@
 // Given a partially filled matrix of 9*9 in the form of values.
-// The solution is to assign digits (from 1 to 9) to the cells having 0 as its value, so that every row, column, and subgrid of size 3×3 contains exactly one instance of the digits from 1 to 9.	
-// Using recursion, backtracking, and simple control statements.
+// The problem is to assign digits (from 1 to 9) to the cells having 0 as its value, so that every row, column, and subgrid of size 3Ã—3 contains exactly one instance of the digits from 1 to 9.	
+// Solution using recursion, backtracking, and simple control statements.
 
 #include<iostream>
 using namespace std;
