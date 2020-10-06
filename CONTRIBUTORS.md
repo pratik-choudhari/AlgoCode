@@ -32,3 +32,4 @@ Cheers to every single one of them!
 * [nikhil-1503](https://github.com/nikhil-1503)
 * [ryanvarghese](https://github.com/ryanvarghese)
 * [Aayushi Agarwal](https://github.com/aayushi02agarwal)
+* [Jyoti Shinde](https://github.com/statst)
