@@ -6,6 +6,7 @@ Cheers to every single one of them!
 
 <img src="https://media.giphy.com/media/DGWAx8d3IkICs/giphy.gif" align="middle" width=250 height=200>
 
+
 - [Rr8eezz4aa](https://github.com/Rr8eezz4aa)
 - [ankitgoel25](https://github.com/ankitgoel25)
 - [vedanthv](https://github.com/vedanthv)
@@ -35,6 +36,7 @@ Cheers to every single one of them!
 - [Aayushi Agarwal](https://github.com/aayushi02agarwal)
 - [Jyoti Shinde](https://github.com/statst)
 - [Palaash Agarwal](https://github.com/Palaash05)
+- [c0d1ng-Devta](https://github.com/c0d1ng-Devta)
 - [Matthew Brown](https://github.com/everspy)
 - [Sushant Kapoor](https://github.com/sushant19-99)
 - [sgavil](https://github.com/sgavil)
