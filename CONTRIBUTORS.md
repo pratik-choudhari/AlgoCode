@@ -35,3 +35,4 @@ Cheers to every single one of them!
 - [Aayushi Agarwal](https://github.com/aayushi02agarwal)
 - [Jyoti Shinde](https://github.com/statst)
 - [Palaash Agarwal](https://github.com/Palaash05)
+- [Piyush Pareek](https://github.com/PiyushPareek7221)
