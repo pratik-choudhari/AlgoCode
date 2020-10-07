@@ -41,3 +41,4 @@ Cheers to every single one of them!
 - [Sushant Kapoor](https://github.com/sushant19-99)
 - [sgavil](https://github.com/sgavil)
 - [M YASHASWI NAIDU](https://github.com/TheYM)
+- [Himanshu Hansaria](https://github.com/Mrsterius)
