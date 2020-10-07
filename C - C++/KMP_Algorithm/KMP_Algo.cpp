@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    
     // pat is the pattern string
     // str is the text string 
     string pat, str, mix;
