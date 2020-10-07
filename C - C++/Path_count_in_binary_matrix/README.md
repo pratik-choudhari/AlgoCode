@@ -18,4 +18,4 @@ The second path could be: Right -> Down -> Down -> Down -> Right -> Right
 The third path could be:  Down -> Right -> Down -> Down -> Right -> Right
 
 ##### Contributed by 
-[Ankitcode99](https://github.com/Ankitcode99)
+[Ankit Pandey](https://github.com/Ankitcode99)
