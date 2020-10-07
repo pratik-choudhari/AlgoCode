@@ -41,5 +41,6 @@ Cheers to every single one of them!
 - [Sushant Kapoor](https://github.com/sushant19-99)
 - [sgavil](https://github.com/sgavil)
 - [M YASHASWI NAIDU](https://github.com/TheYM)
+- [Saurabh Daware](https://github.com/saurabh-daware)
 - [Naziya Parveen](https://github.com/Naziya-Parveen)
 - [Nilesh Gupta](https://github.com/CodeBuster598)
