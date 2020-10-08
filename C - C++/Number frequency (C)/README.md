@@ -1,17 +1,13 @@
-﻿Description
-Given a string find the frequency of single digits(0-9) in it.
+# Problem Statement
+Given an expression as string comprising of opening and closing characters
+of parentheses - (), curly braces - {} and square brackets - [], we need to
+check whether symbols are balanced or not.
 
-Example
-Input:
-a11472o5t6
+##Example
+Input: exp = “[()]{}{()()}”
+Output: Balanced
 
-Output:
-0 2 1 0 1 1 1 1 0 0
-
-Explanation:
-1 occurs twice
-2,4,5,6,7 occur once
-rest don't occur at all
-
+Input: exp = “[(])”
+Output: Not Balanced
 ##### Contributed by 
-[Siddharth Gangwar](https://github.com/siddharthgangwar25)
+[Shivangi Goel](https://github.com/shivangigoel1302)
