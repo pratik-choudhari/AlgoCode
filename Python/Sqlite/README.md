@@ -6,4 +6,5 @@ Program for CRUD(Create, Read, Update, Delete) operation in sqlite database.
    {id INTEGER PRIMARY KEY, roll INTEGER, name TEXT, phone TEXT}
 4. It is menu driven program in which you can select operation of your choice.
 
+Note : Please use 'cls' if 'clear' doesn't work in your program.
 [Naziya Parveen](https://github.com/Naziya-Parveen)
