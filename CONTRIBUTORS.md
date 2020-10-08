@@ -47,3 +47,4 @@ Cheers to every single one of them!
 - [Vanya Arora](https://github.com/vanya-24)
 - [Ankit Pandey](https://github.com/Ankitcode99)
 - [Himanshu Hansaria](https://github.com/Mrsterius)
+- [Siddharth Gangwar](https://github.com/siddharthgangwar25)
