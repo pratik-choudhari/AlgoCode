@@ -45,3 +45,4 @@ Cheers to every single one of them!
 - [Naziya Parveen](https://github.com/Naziya-Parveen)
 - [Nilesh Gupta](https://github.com/CodeBuster598)
 - [Vanya Arora](https://github.com/vanya-24)
+- [Himanshu Hansaria](https://github.com/Mrsterius)
