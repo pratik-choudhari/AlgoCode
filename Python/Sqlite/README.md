@@ -1,9 +1,9 @@
-## Install Sqlite database before running the programs
+Program for CRUD(Create, Read, Update, Delete) operation in sqlite database.
 
-CRUD
-C: Create
-R: Read
-U: Update
-D: Delete
+1. Install Sqlite database before running the program.
+2. Create a databse testdb in sqlite.
+3. student table is created with following parameters :
+   {id INTEGER PRIMARY KEY, roll INTEGER, name TEXT, phone TEXT}
+4. It is menu driven program in which you can select operation of your choice.
 
 [Naziya Parveen](https://github.com/Naziya-Parveen)
