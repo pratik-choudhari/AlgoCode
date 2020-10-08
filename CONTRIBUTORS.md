@@ -15,6 +15,7 @@ Cheers to every single one of them!
 - [sauravUppoor](https://github.com/sauravUppoor)
 - [instareasy](https://github.com/instareasy)
 - [DarkCode01](https://github.com/DarkCode01)
+- [cianopiano](https://github.com/cianopiano)
 - [Raksha25](https://github.com/Raksha25)
 - [devangmukherjee](https://github.com/devangmukherjee)
 - [amitsat27](https://github.com/amitsat27)
