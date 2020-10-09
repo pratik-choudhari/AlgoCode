@@ -53,3 +53,4 @@ Cheers to every single one of them!
 - [Uday A S](https://github.com/ItIsUday)
 - [TediaN97](https://github.com/TediaN97)
 - [kartikaya2000](https://github.com/kartikaya2000)
+- [titanabrian](https://github.com/titanabrian)
