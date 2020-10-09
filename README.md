@@ -12,6 +12,7 @@
 ![](https://img.shields.io/github/issues-pr/pratik-choudhari/algocode)
 
 ![](https://img.shields.io/badge/Python-green)
+![](https://img.shields.io/badge/Go-cyan)
 ![](https://img.shields.io/badge/Java-blue)
 ![](https://img.shields.io/badge/C-yellowgreen)
 ![](https://img.shields.io/badge/C++-blueviolet)
