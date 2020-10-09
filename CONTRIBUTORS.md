@@ -50,3 +50,5 @@ Cheers to every single one of them!
 - [Ryan Papazoglou](https://github.com/RyanPapazoglou)
 - [Uday A S](https://github.com/ItIsUday)
 - [TediaN97](https://github.com/TediaN97)
+- [kartikaya2000](https://github.com/kartikaya2000)
+
