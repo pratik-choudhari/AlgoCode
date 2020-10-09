@@ -106,6 +106,7 @@ Triangle* sortedMerge(Triangle* a, Triangle* b){
 	else if(b == NULL)
 		return a;
 	
+	//if a <= b then b is placed behind a on the list. Otherwise b is placed behind a on the list
 	else{
 		if(a->area <= b->area){
 			result = a;
@@ -134,9 +135,10 @@ void FrontBackSplit(Triangle* firstTriangle, Triangle** a, Triangle** b){
 			fast = fast->nextTriangle;
 		}
 	}
-	
+	//a becomes list from firstTriangle to slow and b becomes list from slow to the end of the list.
 	*a = firstTriangle;
 	*b = slow->nextTriangle;
+	//Separates the two new lists
 	slow->nextTriangle = NULL;
 }
 
