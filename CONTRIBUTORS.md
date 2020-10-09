@@ -48,3 +48,8 @@ Cheers to every single one of them!
 - [Vanya Arora](https://github.com/vanya-24)
 - [Ankit Pandey](https://github.com/Ankitcode99)
 - [Himanshu Hansaria](https://github.com/Mrsterius)
+- [Aalok chaudhary](https://github.com/aalokchaudhary)
+- [Ryan Papazoglou](https://github.com/RyanPapazoglou)
+- [Uday A S](https://github.com/ItIsUday)
+- [TediaN97](https://github.com/TediaN97)
+- [kartikaya2000](https://github.com/kartikaya2000)
