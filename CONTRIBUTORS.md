@@ -48,4 +48,5 @@ Cheers to every single one of them!
 - [Ankit Pandey](https://github.com/Ankitcode99)
 - [Himanshu Hansaria](https://github.com/Mrsterius)
 - [Aalok chaudhary](https://github.com/aalokchaudhary)
+- [Ryan Papazoglou](https://github.com/RyanPapazoglou)
 - [kartikaya2000](https://github.com/kartikaya2000)
