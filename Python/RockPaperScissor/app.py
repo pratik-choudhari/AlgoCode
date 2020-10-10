@@ -28,7 +28,7 @@ def get_the_winner(user_response, pc_response):
 def main():
     user_response = ask_the_user()
     pc_response = ask_the_PC()
-    print("The PC choosed " + pc_response)
+    print(f"The PC choosed  {pc_response}")
     print(get_the_winner(user_response, pc_response))
 
 if __name__ == "__main__":
