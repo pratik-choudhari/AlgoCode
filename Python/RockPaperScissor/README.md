@@ -49,6 +49,8 @@ Open a term on this route and run:
 
 In some distros the package python stands for python 3 and in other it stands for python 2 so take care with that.
 
+![Run demo](/media/RockPaperScissorDemo.png)
+
 ## What is the logic behind
 
 To determine the winner of the game each player's response is represented with an int. That int is its position on the list.
