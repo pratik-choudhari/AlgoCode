@@ -28,11 +28,11 @@ java Convert
   
 2. Convert Binary to Hexadecimal 
 
-![](images/choice5.png)
+![](images/choice5.PNG)
 
 3. Convert Hexadecimal to Octal
 
-![](images/choice3.PNG)
+![](images/choice9.PNG)
 
 
 4. Convert Octal to Binary
