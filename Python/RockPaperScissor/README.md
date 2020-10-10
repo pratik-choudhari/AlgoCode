@@ -61,7 +61,7 @@ The script determines that it is a tie if the ints are equal and, if the differe
 
 Finally, we have to determine who wins between the limits of the list, or in another way, when the difference between the ints is two. In this case the minor wins (stone defeats scissors).
 
-This could be implemented using a circular buffer but I thought that it was not worth it in this case.
+This could be implemented using a [circular buffer](https://en.wikipedia.org/wiki/Circular_buffer) but I thought that it was not worth it in this case.
 
 ## About the author
 
