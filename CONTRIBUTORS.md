@@ -57,3 +57,4 @@ Cheers to every single one of them!
 - [bottleInALightning](https://github.com/bottleInALightning)
 - [PriyanshTri](https://github.com/PriyanshTri)
 - [titanabrian](https://github.com/titanabrian)
+- [Rashi Sharma](https://github.com/rashi-s17)
