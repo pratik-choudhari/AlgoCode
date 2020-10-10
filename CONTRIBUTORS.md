@@ -55,3 +55,4 @@ Cheers to every single one of them!
 - [kartikaya2000](https://github.com/kartikaya2000)
 - [PriyanshTri](https://github.com/PriyanshTri)
 - [titanabrian](https://github.com/titanabrian)
+- [Sarthak Waghmare] (https://github.com/sarthakw7)
