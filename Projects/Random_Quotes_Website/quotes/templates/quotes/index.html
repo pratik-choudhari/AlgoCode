@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <style>
+            input[type=submit]:hover {
+                padding:5px 15px; 
+                background:rgb(160, 153, 153); 
+                border:2 black;
+                cursor:pointer;
+                border-color: black;
+                -webkit-border-radius: 5px;
+                -webkit-border-color:black;
+                border-radius: 5px;
+                text-emphasis-color: black;
+            }
+            input[type=submit] {
+                padding:5px 15px; 
+                background:rgb(255, 255, 255); 
+                border:4px black;
+                cursor:pointer;
+                -webkit-border-radius: 5px;
+                -webkit-border-color:black;
+                border-radius: 5px; 
+            }
+            footer{
+                position: absolute;
+                bottom: 0;
+                height: 2.5rem;
+            }
+            body{
+                background-color: rgb(218, 218, 218);
+            }
+            #header{
+                color:darkslategray;
+                text-shadow:1px 2px rgba(105, 105, 105, 0.473);
+                margin-left: 300px;
+                margin-top: 10px;
+            }
+            #actual_quote{
+                margin-left:30x;
+                margin-right:30px;
+                padding-top:10px;
+                padding-bottom: 10px;
+                
+                color: rgb(59, 47, 70);
+            }
+            #background{
+                
+                margin-left:270px;
+                margin-right:470px;
+                margin-top:20px;
+                margin-bottom: 5px;
+                background-color:rgba(240, 236, 236, 0.685);
+                border-color: rgb(105, 105, 105);
+            }
+            #author{
+                margin-left: 400;
+            }
+            #get_new{
+                position: absolute;
+                padding-left: 400px;
+                margin-top: 10px;
+                height: 30px;
+                width: 70px;
+            }
+        </style>
+
+    </head>
+    <body>
+    <h1 id="header">Random Quote Display</h1>
+    <div id="background">    
+        <blockquote id="actual_quote">{{quote.text}}</blockquote>
+    </div>
+    <span id="author"><small>{{quote.author}}</small></span>
+    
+    <form id="get_new" action="" method="POST"> {% csrf_token %}
+        <input type="submit" value="New one!"> {% csrf_token %}
+    </form>
+    </body>
+    <footer>
+        <span>
+            <small>Author of this Code: </small><a href="https://github.com/bottleInALightning">BottleInALightning</a>
+
+        </span> 
+        <small style="padding-left:5em;">Data scraped from quotes.toscrape.com</small> 
+    </footer>
+</html>
