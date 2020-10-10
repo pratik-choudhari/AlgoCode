@@ -49,4 +49,7 @@ Open a term on this route and run:
 
 In some distros the package python stands for python 3 and in other it stands for python 2 so take care with that.
 
+## About the author
+
+If you want to know about me you can get a lot of info on [my github](https://github.com/seniorglez).
 
