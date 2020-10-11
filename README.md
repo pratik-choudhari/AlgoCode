@@ -43,6 +43,8 @@ __Note: Issues must clearly mention what they are addressing, if a problem is be
 
 ## Get contributing🤩
 
+__Note: One must read [CODE_OF_CONDUCT](https://github.com/pratik-choudhari/AlgoCode/blob/master/CODE_OF_CONDUCT.md) before starting work on any issue__
+
 First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.<br>
 <img src="images/github-fork-local-download.png" height="300" width="650" ></img>
 
