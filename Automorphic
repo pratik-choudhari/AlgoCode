@@ -26,10 +26,10 @@ bool isAutomorphic(int N)
 // Driver code 
 int main() 
 { 
-	int N = 5; 
+	std::cout<<"Enter the number"; 
+	std::cin>>N;
 
-	isAutomorphic(N) ? cout << "Automorphic"
-					: cout << "Not Automorphic"; 
+	isAutomorphic(N) ? cout << "Automorphic": cout << "Not Automorphic"; 
 
 	return 0; 
 } 
