@@ -57,6 +57,7 @@ def rem_func():
             if start!=-1:
                 cur = time.time()
                 if cur-start-ftime>=TIME:
+                    print(f"{TIME/60} mins has elapsed")
                     playsound.playsound(f"./Audio_Files/{random.choice(a_files)}",True)
                     startevent.set()
                     ftime=0
