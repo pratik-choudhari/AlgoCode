@@ -59,4 +59,5 @@ Cheers to every single one of them!
 - [titanabrian](https://github.com/titanabrian)
 - [SpiderMath](https://github.com/SpiderMath)
 - [Shrey Tripathi](https://github.com/shrey27tri01)
+- [Dhruvin Gandhi](https://github.com/dhruvin5)
 - [Harshal S Zodape](https://github.com/Harshalszz)
