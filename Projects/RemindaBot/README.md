@@ -29,3 +29,5 @@ Welcome to Reminder Bot. A simple multi threaded python application to remind yo
     
     and run the below command.
     * python create_audio.py
+
+[Kiran MHM](https://github.com/GoluffyxD)
