@@ -14,7 +14,7 @@ with open('./config.json') as f:
 
 TIME = config['time']*60
 
-a_files=os.listdir("./Audio Files/")
+a_files=os.listdir("./Audio_Files/")
 
 
 def input_func():
@@ -23,13 +23,12 @@ def input_func():
     print(f"Welcome to ReminderBot! 0 to Pause and -1 to exit! Ill Remind you every {TIME/60} minutes")
     while(True):
         s = int(input())
-        if s ==1:
+        if s == 1:
             if not pauseevent.is_set():
                 continue
-             # Resume
             print("Reminder Resumed! Select 0 to pause and -1 to exit")
             ftime=ftime+time.time()-ptime
-            pauseevent.clear() 
+            pauseevent.clear() # Resume Remindabot
         elif s==0:
             if pauseevent.is_set():
                 continue
@@ -45,20 +44,20 @@ def rem_func():
     global ftime,start
     while True:
 
-        if killevent.is_set():
+        if killevent.is_set(): # Check if thread should be killed
             break
-        if pauseevent.is_set():
+        if pauseevent.is_set(): # Check for Pause Condition
             continue
 
-        if startevent.is_set():
+        if startevent.is_set(): # Check for initial Start condition of timer.
             start = time.time()
             startevent.clear()
 
-        if not startevent.is_set(): # startevent is false
+        if not startevent.is_set(): # If startevent is false, Check for time match.
             if start!=-1:
                 cur = time.time()
                 if cur-start-ftime>=TIME:
-                    playsound.playsound(f"./Audio Files/{random.choice(a_files)}",True)
+                    playsound.playsound(f"./Audio_Files/{random.choice(a_files)}",True)
                     startevent.set()
                     ftime=0
 

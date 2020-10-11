@@ -12,8 +12,8 @@ if not mytext == "Lets take a walk":
 
     myobj = gTTS(text=mytext, lang=language, slow=False) 
 
-    n=len(os.listdir("./Audio Files/")) 
-    myobj.save(f"./Audio Files/Audio{n+1}.mp3") 
+    n=len(os.listdir("./Audio_Files/")) 
+    myobj.save(f"./Audio_Files/Audio{n+1}.mp3") 
 
     # Playing the converted file 
-    playsound.playsound(f"./Audio Files/Audio{n+1}.mp3",True)
+    playsound.playsound(f"./Audio_Files/Audio{n+1}.mp3",True)
