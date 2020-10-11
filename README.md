@@ -25,6 +25,11 @@ Hey there!👋
 * You can put up a problem yourself.
 * You can even contribute a project made by yourself!
 
+## New to github? No problem :)
+* Git and github crash course by TraversyMedia: [Youtube](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+* Git and github for beginners by FreeCodeCamp: [Youtube](https://www.youtube.com/watch?v=RGOj5yH7evk)
+* Git and github articles on atlassian.com: [Website](https://www.atlassian.com/git/tutorials)
+
 ## Steps to put up an issue:
 
 First let's see when should you create an issue?
@@ -42,6 +47,8 @@ Click new issue and fill up the details!<br>
 __Note: Issues must clearly mention what they are addressing, if a problem is being put up then explain it using an example.__
 
 ## Get contributing🤩
+
+__Note: One must read [CODE_OF_CONDUCT](https://github.com/pratik-choudhari/AlgoCode/blob/master/CODE_OF_CONDUCT.md) before starting work on any issue__
 
 First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.<br>
 <img src="images/github-fork-local-download.png" height="300" width="650" ></img>
