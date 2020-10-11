@@ -57,3 +57,4 @@ Cheers to every single one of them!
 - [bottleInALightning](https://github.com/bottleInALightning)
 - [PriyanshTri](https://github.com/PriyanshTri)
 - [titanabrian](https://github.com/titanabrian)
+- [Shrey Tripathi](https://github.com/shrey27tri01)

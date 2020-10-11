@@ -29,7 +29,7 @@ def zip(directories, zippedFileName):
         sys.exit(1)
   
     # printing the list of all files to be zipped 
-    print('Folders to be zipped:') 
+    print('Files to be zipped:') 
     for fileName in filePaths: 
         print(fileName) 
   
