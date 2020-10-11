@@ -85,7 +85,6 @@ First things first, In order to contribute you have to create a Pull Request fro
     * In case a project is being contributed make sure to add the files inside a directory(name according to project) which in turn must be placed inside the `Projects` directory.
     * Changes done by you will not affect existing structure of the project.
     * Add a README.md with your name and link to github profile using \[your-name](link-to-profile)
-    * Add \[your-name](your-github-profile-link) in CONTRIBUTORS.md
 
 7. After the contribution work is ready go ahead and add it to staging area:<br>
 
