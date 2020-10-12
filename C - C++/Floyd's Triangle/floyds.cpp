@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+//funtion to print floyd's triangle
 void floyds(int n)
 {
     int x = 1;
@@ -14,6 +14,7 @@ void floyds(int n)
 }
 int main()
 {
+    //Floyd’s triangle, named after Robert Floyd, is a right-angled triangle that is made up using natural numbers. It starts from 1 and consecutively selects the next greater number in the sequence. 
     int t;
     cout<<"Enter the number of test cases."<<endl;
     cin>>t;
