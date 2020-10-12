@@ -90,7 +90,7 @@ namespace number_system_conversion
                 Console.WriteLine();
             } while (program > 0 && program < 13);
         }
-
+        //Convertions from Decimal To X
         public static string DecToBin(int dec)
         {
             string revbin = "";
@@ -138,7 +138,7 @@ namespace number_system_conversion
             return hex;
         }
 
-
+        //Convertions from X to Decimal
         public static int BinToDec(string bin)
         {
             int value = 0;
