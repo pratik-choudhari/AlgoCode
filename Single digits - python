@@ -1,0 +1,14 @@
+n = int(input("Enter number: ")) #taking input from user
+s = str(n)
+count = 0
+my_dict = {}  #initialization
+for i in range(0,len(s)):  #loop through the integer
+    if s[i] in my_dict:
+        my_dict[s[i]] += 1
+    else:
+        my_dict[s[i]] = 1
+
+for m in my_dict.values(): #traversing through dictionary values
+    if m == 1:
+        count+=1
+print("Count of number of digits appearing exactly once: ", count)
