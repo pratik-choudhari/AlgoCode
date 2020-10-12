@@ -11,4 +11,4 @@ List2: 1 -> 3 -> 7
 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9
 
 ## *Author Name*
-[Dhairya Parikh(https://github.com/dhairya-parikh)
+[Dhairya Parikh](https://github.com/dhairya-parikh)
