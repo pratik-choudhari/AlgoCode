@@ -7,23 +7,23 @@ The palindromic number are the number whose reverse is equal to the original num
 Enter the number of rows : 8
 
 ### Sample Output
-1 
-1 2 1 
-1 2 3 2 1 
-1 2 3 4 3 2 1 
-1 2 3 4 5 4 3 2 1 
-1 2 3 4 5 6 5 4 3 2 1 
-1 2 3 4 5 6 7 6 5 4 3 2 1 
-1 2 3 4 5 6 7 8 7 6 5 4 3 2 1 
+1</br> 
+1 2 1 </br>
+1 2 3 2 1</br> 
+1 2 3 4 3 2 1 </br>
+1 2 3 4 5 4 3 2 1</br> 
+1 2 3 4 5 6 5 4 3 2 1 </br>
+1 2 3 4 5 6 7 6 5 4 3 2 1 </br>
+1 2 3 4 5 6 7 8 7 6 5 4 3 2 1 </br>
 
 ### Sample Input
 Enter the number of rows : 4
 
 ### Sample Output
-1 
-1 2 1 
-1 2 3 2 1 
-1 2 3 4 3 2 1 
+1 </br>
+1 2 1 </br>
+1 2 3 2 1 </br>
+1 2 3 4 3 2 1 </br>
 
 
 ## *Author Name*
