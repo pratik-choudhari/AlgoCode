@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//funtion to print floyd's triangle
+//function to print floyd's triangle
 void floyds(int n)
 {
     int x = 1;
