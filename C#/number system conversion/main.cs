@@ -32,8 +32,10 @@ namespace number_system_conversion
                         Console.WriteLine(BinToDec(num));
                         break;
                     case 2:
+                        Console.WriteLine(DecToOct(BinToDec(num)));
                         break;
                     case 3:
+                        Console.WriteLine(DecToHex(BinToDec(num)));
                         break;
                     case 4:
                         Console.WriteLine(DecToBin(int.Parse(num)));
@@ -45,15 +47,19 @@ namespace number_system_conversion
                         Console.WriteLine(DecToHex(int.Parse(num)));
                         break;
                     case 7:
+                        Console.WriteLine(DecToBin(OctToDec(num)));
                         break;
                     case 8:
                         Console.WriteLine(OctToDec(num));
                         break;
                     case 9:
+                        Console.WriteLine(DecToHex(OctToDec(num)));
                         break;
                     case 10:
+                        Console.WriteLine(DecToBin(HexToDec(num)));
                         break;
                     case 11:
+                        Console.WriteLine(DecToOct(HexToDec(num)));
                         break;
                     case 12:
                         Console.WriteLine(HexToDec(num));
@@ -103,25 +109,25 @@ namespace number_system_conversion
         }
         
         
-        public static double BinToDec(string bin){
-            double value = 0;
+        public static int BinToDec(string bin){
+            int value = 0;
             for (int i=bin.Length-1; i>=0; i--){
-                value += (bin[i]-'0')* Math.Pow(2.0,(bin.Length-i-1));
+                value += (int)((bin[i]-'0')* Math.Pow(2.0,(bin.Length-i-1)));
             }
             return value;
         }
-        public static double OctToDec(string oct){
-            double value = 0;
+        public static int OctToDec(string oct){
+            int value = 0;
             for (int i=oct.Length-1; i>=0; i--){
-                value += (oct[i]-'0')* Math.Pow(8.0,(oct.Length-i-1));
+                value += (int)((oct[i]-'0')* Math.Pow(8.0,(oct.Length-i-1)));
             }
             return value;
         }
-        public static double HexToDec(string hex){
+        public static int HexToDec(string hex){
             string[] hexdict = new string[16] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" };
-            double value = 0;
+            int value = 0;
             for (int i=hex.Length-1; i>=0; i--){
-                value += (Array.IndexOf(hexdict,hex[i].ToString()))* Math.Pow(16.0,(hex.Length-i-1));
+                value += (int)((Array.IndexOf(hexdict,hex[i].ToString()))* Math.Pow(16.0,(hex.Length-i-1)));
             }
             return value;
         }
