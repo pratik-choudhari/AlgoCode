@@ -103,4 +103,5 @@ Cheers to every single one of them!
 * [Palaash05](https://github.com/Palaash05)
 * [DiSousaDev](https://github.com/DiSousaDev)
 * [AnweshaDan](https://github.com/AnweshaDan)
-
+* [ravidyarev](https://github.com/ravidyarev)
+* [Itay Singer](https://github.com/itayz1230)
