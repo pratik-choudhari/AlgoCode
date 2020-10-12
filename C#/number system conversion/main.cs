@@ -47,6 +47,7 @@ namespace number_system_conversion
                     case 7:
                         break;
                     case 8:
+                        Console.WriteLine(OctToDec(num));
                         break;
                     case 9:
                         break;
@@ -55,6 +56,7 @@ namespace number_system_conversion
                     case 11:
                         break;
                     case 12:
+                        Console.WriteLine(HexToDec(num));
                         break;
                 }
                 Console.WriteLine();
@@ -105,6 +107,21 @@ namespace number_system_conversion
             double value = 0;
             for (int i=bin.Length-1; i>=0; i--){
                 value += (bin[i]-'0')* Math.Pow(2.0,(bin.Length-i-1));
+            }
+            return value;
+        }
+        public static double OctToDec(string oct){
+            double value = 0;
+            for (int i=oct.Length-1; i>=0; i--){
+                value += (oct[i]-'0')* Math.Pow(8.0,(oct.Length-i-1));
+            }
+            return value;
+        }
+        public static double HexToDec(string hex){
+            string[] hexdict = new string[16] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" };
+            double value = 0;
+            for (int i=hex.Length-1; i>=0; i--){
+                value += (Array.IndexOf(hexdict,hex[i].ToString()))* Math.Pow(16.0,(hex.Length-i-1));
             }
             return value;
         }
