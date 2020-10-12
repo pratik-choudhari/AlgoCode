@@ -21,13 +21,35 @@ namespace number_system_conversion
             12.Hexadecimal to Decimal
             13.Exit
             ");
-            Console.Write("Please select a program: ");
-            int program = int.Parse(Console.ReadLine());
-            while(program>0&&program<13)
+
+            int count = 0;
+            int program = 0;
+            int maxTries = 3;
+            do
             {
+                count = 0;
+                maxTries = 3;
+                while (count < maxTries)
+                {
+                    try
+                    {
+                        Console.Write("Please select a program: ");
+                        program = int.Parse(Console.ReadLine());
+                        break;
+                    }
+                    catch (FormatException e)
+                    {
+                        Console.WriteLine("Please Enter a number!");
+                        if (++count >= maxTries) throw e;
+                    }
+                }
+
                 Console.Write("Great! Select a number: ");
-                string num=Console.ReadLine();
-                switch(program){
+                string num = Console.ReadLine();
+                if (num == "")
+                    continue;
+                switch (program)
+                {
                     case 1:
                         Console.WriteLine(BinToDec(num));
                         break;
@@ -66,71 +88,85 @@ namespace number_system_conversion
                         break;
                 }
                 Console.WriteLine();
-                Console.Write("Please select a program: ");
-                program = int.Parse(Console.ReadLine());
-            }
+            } while (program > 0 && program < 13);
         }
-        public static string DecToBin(int dec){
+
+        public static string DecToBin(int dec)
+        {
             string revbin = "";
-            while (dec>0){
+            while (dec > 0)
+            {
                 revbin += (dec % 2).ToString();
                 dec /= 2;
             }
             string bin = "";
-            for (int i = revbin.Length - 1; i >= 0;i--){
+            for (int i = revbin.Length - 1; i >= 0; i--)
+            {
                 bin += revbin[i];
             }
             return bin;
         }
-        public static string DecToOct(int dec){
+        public static string DecToOct(int dec)
+        {
             string revbin = "";
-            while (dec>0){
+            while (dec > 0)
+            {
                 revbin += (dec % 8).ToString();
                 dec /= 8;
             }
             string oct = "";
-            for (int i = revbin.Length - 1; i >= 0;i--){
+            for (int i = revbin.Length - 1; i >= 0; i--)
+            {
                 oct += revbin[i];
             }
             return oct;
         }
-        public static string DecToHex(int dec){
+        public static string DecToHex(int dec)
+        {
             string revbin = "";
             string[] hexdict = new string[16] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" };
-            while (dec>0){
+            while (dec > 0)
+            {
                 revbin += hexdict[(dec % 16)];
                 dec /= 16;
             }
             string hex = "";
-            for (int i = revbin.Length - 1; i >= 0;i--){
+            for (int i = revbin.Length - 1; i >= 0; i--)
+            {
                 hex += revbin[i];
             }
             return hex;
         }
-        
-        
-        public static int BinToDec(string bin){
+
+
+        public static int BinToDec(string bin)
+        {
             int value = 0;
-            for (int i=bin.Length-1; i>=0; i--){
-                value += (int)((bin[i]-'0')* Math.Pow(2.0,(bin.Length-i-1)));
+            for (int i = bin.Length - 1; i >= 0; i--)
+            {
+                value += (int)((bin[i] - '0') * Math.Pow(2.0, (bin.Length - i - 1)));
             }
             return value;
         }
-        public static int OctToDec(string oct){
+        public static int OctToDec(string oct)
+        {
             int value = 0;
-            for (int i=oct.Length-1; i>=0; i--){
-                value += (int)((oct[i]-'0')* Math.Pow(8.0,(oct.Length-i-1)));
+            for (int i = oct.Length - 1; i >= 0; i--)
+            {
+                value += (int)((oct[i] - '0') * Math.Pow(8.0, (oct.Length - i - 1)));
             }
             return value;
         }
-        public static int HexToDec(string hex){
+        public static int HexToDec(string hex)
+        {
             string[] hexdict = new string[16] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" };
             int value = 0;
-            for (int i=hex.Length-1; i>=0; i--){
-                value += (int)((Array.IndexOf(hexdict,hex[i].ToString()))* Math.Pow(16.0,(hex.Length-i-1)));
+            for (int i = hex.Length - 1; i >= 0; i--)
+            {
+                value += (int)((Array.IndexOf(hexdict, hex[i].ToString())) * Math.Pow(16.0, (hex.Length - i - 1)));
             }
             return value;
         }
-        
+
     }
 }
