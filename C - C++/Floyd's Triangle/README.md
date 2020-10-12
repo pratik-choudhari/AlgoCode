@@ -4,8 +4,8 @@ Floyd’s triangle, named after Robert Floyd, is a right-angled triangle that is
 Example
 Input: 5
 Output:
-1/n
-2 3/n
-4 5 6/n
-7 8 9 10/n
-11 12 13 14 15/n
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
