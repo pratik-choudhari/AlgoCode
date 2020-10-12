@@ -93,4 +93,4 @@ Cheers to every single one of them!
 * [DiSousaDev](https://github.com/DiSousaDev)
 * [AnweshaDan](https://github.com/AnweshaDan)
 * [ravidyarev](https://github.com/ravidyarev)
-
+* [Itay Singer](https://github.com/itayz1230)
