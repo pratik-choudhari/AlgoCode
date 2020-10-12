@@ -1,10 +1,3 @@
-Description
-
-Example
-
-Merged List:
-
-
 <h1 align=center>Merge Two Sorted Lists</h1>
 
 ## Problem Statement
