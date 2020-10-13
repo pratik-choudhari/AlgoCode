@@ -57,3 +57,4 @@ Cheers to every single one of them!
 - [titanabrian](https://github.com/titanabrian)
 - [SpiderMath](https://github.com/SpiderMath)
 - [Shrey Tripathi](https://github.com/shrey27tri01)
+- [Sripaad Srinivasan](https://hithub.com/Sripaad)

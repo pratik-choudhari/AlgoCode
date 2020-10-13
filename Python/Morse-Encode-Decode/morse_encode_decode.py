@@ -1,4 +1,4 @@
-
+# All morse alphabets are being hardcoded
 morse_alphabets ={
         "A" : ".-",
         "B" : "-...",
@@ -53,6 +53,7 @@ inverse_morse_alphabets = dict((v,k) for (k,v) in morse_alphabets.items())
 
 class MorseEncodeDecode:
     
+    #this takes the input and translates to english using an inverse dictionary and key positioning 
     def decodeFromMorse(self, code, position_in_string = 0):
         
         if position_in_string < len(code):
@@ -68,8 +69,9 @@ class MorseEncodeDecode:
         else:
             return ""
     
-    
+    # this just takes the input and translates them using the above dictionary
     def encodeToMorse(self, message):
+        
         encoded_message = ""
         for char in message[:]:
             encoded_message += morse_alphabets[char.upper()] + " "
