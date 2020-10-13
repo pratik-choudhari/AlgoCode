@@ -14,7 +14,6 @@
 ![](https://img.shields.io/github/issues-pr/pratik-choudhari/algocode)
 ![](https://img.shields.io/github/last-commit/pratik-choudhari/algocode)
 ![](https://img.shields.io/github/repo-size/pratik-choudhari/algocode)
-![Stars GitHub](https://img.shields.io/github/stars/garimasingh128/awesome-python-projects)
 
 ![](https://img.shields.io/badge/Python-green)
 ![](https://img.shields.io/badge/Go-cyan)
