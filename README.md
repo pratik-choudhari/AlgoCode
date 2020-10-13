@@ -16,6 +16,7 @@
 ![](https://img.shields.io/badge/Java-blue)
 ![](https://img.shields.io/badge/C-yellowgreen)
 ![](https://img.shields.io/badge/C++-blueviolet)
+![](https://img.shields.io/badge/Csharp-red)
 ![](https://img.shields.io/badge/Js-yellow)
 
 Hey there!👋 
