@@ -13,16 +13,11 @@ namespace CountSingleDigits
         static int CountSingleDigit(long input)
         {
             var digitString = input.ToString(); // change to string input value.
-            var allDigits = new List<char>();   // add all digits in char list
-            foreach (var digit in digitString)
-            {
-                allDigits.Add(digit);
-            }
             var result = 0;
-            var distinctDigits = allDigits.Distinct(); // find different digits list
+            var distinctDigits = digitString.Distinct(); // find different digits list
             foreach (var distinctDigit in distinctDigits)
             {
-                if (allDigits.Count(m => m == distinctDigit) == 1) // check different digits count
+                if (digitString.Count(m => m == distinctDigit) == 1) // check different digits count
                 {
                     result++;
                 }
