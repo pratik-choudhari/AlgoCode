@@ -2,8 +2,10 @@
 Given an array A with n integers return True if it is possible to sort the array in increasing order by swapping the i-th element A[i] with the (i+k)-th element A[i+k] else return False. You may perform the operation any number of times.
 
 # Input Format
+  ```
   n k
   A1 A2 A3 ......An
+  ```
 
 # Example Output
 ```
@@ -26,7 +28,7 @@ output:
 True
 ```
 
-[Click here to see the implementation!](./CanWeSort.java)
+[Click here to see the implementation!](./can_we_sort.java)
 
 Contributed by [Raj Sanghavi](https://www.github.com/raj2729)
 
