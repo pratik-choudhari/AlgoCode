@@ -73,12 +73,15 @@ void printStr(char str[9]){
 	for(int i=0; i<9 && str[i] != '\0'; i++){
 		if(str[i] == ',')
 			continue;
+		//if n is equal to these values we know that the number in question has to be a unit number like one, two, three
 		else if(n == 6 || n == 4 || n == 3 || n == 1){
 			printNumUnit(str[i]);
 		}
+		//Otherwise it must be in a position to be a 'ten' number like twenty thirty fourty
 		else if(str[i] != '1'){
 			printNumTen(str[i]);
 		}
+		//If the ten number is one then the worded numbers change a lot so they go in a different function and i is incremented twice to account for the use of the next digit in this function
 		else{
 			printNumTeens(str[++i]);
 			n--;
