@@ -2,7 +2,8 @@
 
 ## Problem Statement
 Given a number, check whether a number is an Automorphic number or not.</br>
-An automorphic number is a number whose square ends with the same digits as the number itself.
+
+`An automorphic number is a number whose square ends with the same digits as the number itself.`
 
 ### Sample Input-1
 `25`
@@ -19,4 +20,4 @@ It is not an Automorphic number.</br>
 As, square of 7 = 49 and it ends with number 9.
 
 ### Author Name
-`[*Sarthak Luthra*](https://github.com/sarthak-21)`
+[*Sarthak Luthra*](https://github.com/sarthak-21)
