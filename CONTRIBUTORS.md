@@ -105,3 +105,4 @@ Cheers to every single one of them!
 * [Palaash05](https://github.com/Palaash05)
 * [DiSousaDev](https://github.com/DiSousaDev)
 * [Sripaad Srinivasan](https://github.com/Sripaad)
+* [Subhadeep Chatterjee](https://github.com/subhadeep1912)
