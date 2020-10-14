@@ -131,7 +131,7 @@ __Note that a problem can be solved in above mentioned languages unless any lang
 <table>
     <tr>
         <td>
-            <img src='https://avatars3.githubusercontent.com/u/40862682?v=4'>
+            <a href="https://github.com/pratik-choudhari/"><img src="https://avatars3.githubusercontent.com/u/40862682?v=4"></a>
         </td>
         <td>
             Hi! I am Pratik Choudhari an undergrad student. Recently I have discovered my liking for open source since then I have been working diligently towards it and here I am with this repository😄.

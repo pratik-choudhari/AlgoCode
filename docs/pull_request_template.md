@@ -2,7 +2,7 @@
 
 A comprehensive description about the Pull Request
 
-Reference Issue number #(issue_no)
+Reference Issue number #issue_no
 
 `issue_no` must refer to the issue related to this PR, visit [here](https://github.com/pratik-choudhari/AlgoCode/issues)
 
