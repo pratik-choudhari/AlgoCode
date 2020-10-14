@@ -1,0 +1,3 @@
+tensorflow
+scikit-learn
+matplotlib
