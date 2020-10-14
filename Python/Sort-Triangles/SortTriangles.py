@@ -57,25 +57,35 @@ def triOrderList(tris):
     print(f'List before {triKeys}')
 
     # TODO find a way to update the key in the outer loop to 'reset' the looping after a change
-    # double loop that takes one area to compare to another in the lise
-    for key in triKeys:
-        print(f'Key is {key} (outside of loop)')
-        for compare in triKeys[triKeys.index(key):]:
+    # double loop that takes one area to compare to another in the list
+    running = True
+    i = 0
+    while running:
+        key = triKeys[i]
+        print(f'triKeys in position {i} is {key}')
+
+        # breaks the loop
+        tri_len = len(triKeys) - 1
+        print(f'i is {i} and tri_len is {tri_len}')
+        if i == tri_len:
+            print('setting running to false, and breaking the loop')
+            break
+
+        for compare in triKeys[i + 1:]:
             print(f'comparing {key} to {compare}')
             # if one is found to be greater than the other it is then switched
             if key > compare:
                 print('making the switch')
-                keyIndex = triKeys.index(key)
+                # keyIndex = triKeys.index(key)
                 compareIndex = triKeys.index(compare)
 
-                triKeys[keyIndex], triKeys[compareIndex] = triKeys[compareIndex], triKeys[keyIndex]
+                triKeys[i], triKeys[compareIndex] = triKeys[compareIndex], triKeys[i]
 
                 # resets the list to make sure nothing is missed in the comparision
-                key = triKeys[0]
-                print(f'Key in loop is {triKeys[0]}')
-                compare = triKeys[0:]
+                i = -1
                 break
 
+        i += 1
         print(f'List is now {triKeys}')
 
     # returns the keys in a ordered list
