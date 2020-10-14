@@ -104,5 +104,6 @@ Cheers to every single one of them!
 * [TechnoPhasePRO](https://github.com/TechnoPhasePRO)
 * [Palaash05](https://github.com/Palaash05)
 * [DiSousaDev](https://github.com/DiSousaDev)
+* [Ghanender Chauhan](https://github.com/ghanender-chauhan)
 * [Sripaad Srinivasan](https://github.com/Sripaad)
 * [Subhadeep Chatterjee](https://github.com/subhadeep1912)
