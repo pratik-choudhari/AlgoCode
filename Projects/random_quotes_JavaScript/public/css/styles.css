@@ -1,0 +1,46 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    align-self: center;
+  }
+  
+  button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background-color: #888888;
+    color: white;
+    padding: 8px;
+  }
+  .quote-block {
+    background-color: #333333;
+    padding: 16px;
+  }
+  .quote-display {
+    font-size: 24px;
+    color: white;
+    margin-top: 48px;
+  }
+  
+  .author {
+    font-size: 18px;
+    text-align: right;
+    padding-top: 16px;
+    color: #888888;
+  }
+  
