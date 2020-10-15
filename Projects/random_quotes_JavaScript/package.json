@@ -1,0 +1,18 @@
+{
+  "name": "random_quotes_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jsdom": "^16.4.0"
+  }
+}
