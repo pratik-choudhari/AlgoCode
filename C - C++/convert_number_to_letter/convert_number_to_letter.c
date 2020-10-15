@@ -88,7 +88,7 @@ void printStr(char str[9]){
 		}
 			
 		if(n == 6){
-			printf("lahk ");
+			printf("lakh ");
 		}
 		else if(n == 4){
 			printf("thousand ");
@@ -156,7 +156,7 @@ void printNumTen(char c){
 			printf("thirty ");
 			break;
 		case '4':
-			printf("fourty ");
+			printf("forty ");
 			break;
 		case '5':
 			printf("fifty ");
