@@ -115,4 +115,3 @@ tri_ordered_list = triOrderList(triangles)
 print('\nOrdered list of sides are:')
 for keys in tri_ordered_list:
     print(f'{triangles[keys]} ')
-
