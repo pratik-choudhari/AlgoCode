@@ -2,7 +2,7 @@
 
 A comprehensive description about the Pull Request
 
-Reference Issue number #(issue_no)
+Reference Issue number #issue_no
 
 `issue_no` must refer to the issue related to this PR, visit [here](https://github.com/pratik-choudhari/AlgoCode/issues)
 
@@ -27,4 +27,3 @@ NOTE: **Check boxes using [x]**
 - [ ] I have starred this repository.
 - [ ] I have added a working sample/screenshot of the script.
 - [ ] I have checked for trailing spaces in file names and none have them.
-- [ ] I have added \(your-name)[your-github-profile-link] in CONTRIBUTORS.md

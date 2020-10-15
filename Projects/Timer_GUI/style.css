@@ -1,0 +1,38 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #033f63;
+  color: #ee7722;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+#main {
+  padding: 30px;
+}
+
+#timer-text {
+  margin: 0 auto;
+  font-size: 5em;
+  font-weight: 200;
+}
+
+#timer-controls {
+  margin: 0 auto;
+}
+button {
+  padding: 10px;
+}
+
+#laps {
+  width: 200px;
+}
+.list-item {
+  font-size: 2em;
+  border-bottom: 1px solid #ee7722;
+  padding: 10px;
+}

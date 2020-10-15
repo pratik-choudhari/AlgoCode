@@ -1,4 +1,4 @@
-# AlgoCode
+# AlgoCode ✨
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
@@ -8,24 +8,34 @@
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
 ![](https://img.shields.io/github/issues/pratik-choudhari/algocode)
+![](https://img.shields.io/github/stars/pratik-choudhari/algocode)
 ![](https://img.shields.io/github/contributors/pratik-choudhari/algocode)
+
 ![](https://img.shields.io/github/issues-pr/pratik-choudhari/algocode)
+![](https://img.shields.io/github/last-commit/pratik-choudhari/algocode)
+![](https://img.shields.io/github/repo-size/pratik-choudhari/algocode)
 
 ![](https://img.shields.io/badge/Python-green)
 ![](https://img.shields.io/badge/Go-cyan)
 ![](https://img.shields.io/badge/Java-blue)
 ![](https://img.shields.io/badge/C-yellowgreen)
 ![](https://img.shields.io/badge/C++-blueviolet)
+![](https://img.shields.io/badge/Csharp-red)
 ![](https://img.shields.io/badge/Js-yellow)
 
 Hey there!👋 
 
-## What can you do here?
+## What can you do here?🧐
 * You can solve questions put up by contributors (tag moderators in comment to assign an issue to you and mention the language you will be using).
 * You can put up a problem yourself.
 * You can even contribute a project made by yourself!
 
-## Steps to put up an issue:
+## New to github? No problem :)🆕
+* Git and github crash course by TraversyMedia: [Youtube](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+* Git and github for beginners by FreeCodeCamp: [Youtube](https://www.youtube.com/watch?v=RGOj5yH7evk)
+* Git and github articles on atlassian.com: [Website](https://www.atlassian.com/git/tutorials)
+
+## Steps to put up an issue:📑
 
 First let's see when should you create an issue?
 * If you want to contribute a question or project.
@@ -42,6 +52,8 @@ Click new issue and fill up the details!<br>
 __Note: Issues must clearly mention what they are addressing, if a problem is being put up then explain it using an example.__
 
 ## Get contributing🤩
+
+__Note: One must read [CODE_OF_CONDUCT](https://github.com/pratik-choudhari/AlgoCode/blob/master/CODE_OF_CONDUCT.md) before starting work on any issue__
 
 First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.<br>
 <img src="images/github-fork-local-download.png" height="300" width="650" ></img>
@@ -78,7 +90,6 @@ First things first, In order to contribute you have to create a Pull Request fro
     * In case a project is being contributed make sure to add the files inside a directory(name according to project) which in turn must be placed inside the `Projects` directory.
     * Changes done by you will not affect existing structure of the project.
     * Add a README.md with your name and link to github profile using \[your-name](link-to-profile)
-    * Add \[your-name](your-github-profile-link) in CONTRIBUTORS.md
 
 7. After the contribution work is ready go ahead and add it to staging area:<br>
 
@@ -103,30 +114,32 @@ First things first, In order to contribute you have to create a Pull Request fro
 
 11. Get your name in CONTRIBUTORS.md!
 
-## Please read
+## Code of conduct 👨‍💻
 [CODE_OF_CONDUCT.md](https://github.com/pratik-choudhari/AlgoCode/blob/master/CODE_OF_CONDUCT.md)
 
-## Our contrubitors(updated daily)
+## Our contrubitors(updated daily) ❤
 [CONTRIBUTORS.md](https://github.com/pratik-choudhari/AlgoCode/blob/master/CONTRIBUTORS.md)
 
-## Meaning of labels
+## Labels 🏷
 
-__incomplete__: PR was not structured as mentioned in CODE_OF_CONDUCT, mising README, missing folder, etc.
+__Issues labelled with language name e.g Python, mean that the particular issue has been assigned for language in the label__
 
-__early bird__: PR was made even before creating an issue or PR was made by a person unassigned to the task.
+__Note that a problem can be solved in above mentioned languages unless any language is explicitly mentioned__
 
-__star✨__: Star this repo!
+## About me 
 
-## About me
+<table>
+    <tr>
+        <td>
+            <a href="https://github.com/pratik-choudhari/"><img src="https://avatars3.githubusercontent.com/u/40862682?v=4"></a>
+        </td>
+        <td>
+            Hi! I am Pratik Choudhari an undergrad student. Recently I have discovered my liking for open source since then I have been working diligently towards it and here I am with this repository😄.
+        </td>
+    </tr>
+</table>
 
-Hi! I am Pratik Choudhari an undergrad student. Recently I have discovered my liking for open source since then I have been working diligently towards it and here I am with this repository😄.
-
-Got something interesting to talk about? I would love to hear back from you!
-
-Let's connect
-
+Got something interesting to talk about? Let's connect
 
 <a href="https://www.linkedin.com/in/pratik-choudhari/"><img src="https://hackernoon.com/images/PrB8ElNwFUY9FJD7Kw2aUJtm1UW2-cjw12i45.gif" align="left" height="52" width="52" ></a>
 <a href="https://github.com/pratik-choudhari/"><img src="https://radicalpenguin.me/blog/wp-content/uploads/2014/03/daftpunktocat-guy1.gif" align="left" height="52" width="52" ></a>
-
-
