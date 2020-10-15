@@ -9,6 +9,10 @@ The code is simple, all you need to do is run SortTriangles.py and follow the in
 3. Once the above is entered code will sort them and print the sides in ascending order based on their areas
     1. Area is calculated using Heron's formula
 
+#### Screenshot
+
+![Image of Yaktocat](https://github.com/Kirkkm/AlgoCode/blob/master/Python/Sort-Triangles/SortTriangleScreenshot.PNG)
+
 ## Versions & Imports
 - [Python 3.9](https://docs.python.org/3.9/whatsnew/3.9.html) used
 - imported [math](https://docs.python.org/3/library/math.html)
