@@ -88,7 +88,7 @@ void printStr(char str[9]){
 		}
 			
 		if(n == 6){
-			printf("lahk ");
+			printf("lakh ");
 		}
 		else if(n == 4){
 			printf("thousand ");
