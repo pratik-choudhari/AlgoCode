@@ -14,6 +14,9 @@ def num_of_triangles():
 # method to ask the user for the sides of a triangle
 def side_of_triangles(triname):
 
+    # cleans up the console messages
+    print('\n')
+
     side_1 = input (f'For {triname}, please enter the number for side 1 (Please enter a int value):')
 
     # checks if the the input is a int, and if not keeps asking the same questions till a int is provided
@@ -35,6 +38,7 @@ def side_of_triangles(triname):
         print('That is a invalid entry, please try again')
         side_3 = input(f'For {triname}, please enter the number for side 3 (Please enter a int value):')
 
+
     # puts the sides into a list to be returned
     sides = [int(side_1), int(side_2), int(side_3)]
 
@@ -54,29 +58,24 @@ def calcArea(sides):
 def triOrderList(tris):
     triKeys = list(tris.keys())
 
-    print(f'List before {triKeys}')
-
-    # TODO find a way to update the key in the outer loop to 'reset' the looping after a change
     # double loop that takes one area to compare to another in the list
     running = True
     i = 0
     while running:
         key = triKeys[i]
-        print(f'triKeys in position {i} is {key}')
+        # print(f'triKeys in position {i} is {key}')
 
         # breaks the loop
         tri_len = len(triKeys) - 1
-        print(f'i is {i} and tri_len is {tri_len}')
+        # print(f'i is {i} and tri_len is {tri_len}')
         if i == tri_len:
-            print('setting running to false, and breaking the loop')
             break
 
         for compare in triKeys[i + 1:]:
-            print(f'comparing {key} to {compare}')
+            # print(f'comparing {key} to {compare}')
             # if one is found to be greater than the other it is then switched
             if key > compare:
-                print('making the switch')
-                # keyIndex = triKeys.index(key)
+                # print('making the switch')
                 compareIndex = triKeys.index(compare)
 
                 triKeys[i], triKeys[compareIndex] = triKeys[compareIndex], triKeys[i]
@@ -86,16 +85,14 @@ def triOrderList(tris):
                 break
 
         i += 1
-        print(f'List is now {triKeys}')
+        # print(f'List is now {triKeys}')
 
     # returns the keys in a ordered list
     return triKeys
 
-
+# where the code starts by asking the user how many triangles and for their sides
 print('Welcome! to SortTriangles python code')
 triangleQuantity = num_of_triangles()
-
-print(f'number of triangles is {triangleQuantity}')
 
 count = 0
 triangles = {}
@@ -103,19 +100,19 @@ triangles = {}
 # loops to assign sides to a key which is going to be it's area (of all 3 sides)
 while count < triangleQuantity:
 
-    triName = f'triangle{count}'
+    triName = f'triangle{count + 1}'
     triSides = side_of_triangles(triName)
 
     area = calcArea(triSides)
     triangles.update({area:triSides})
 
-    print(f'triangles dict {triangles}')
+    # print(f'triangles dict {triangles}')
     count += 1
 
-# after the sides of a triangles are set in the dictionary, this next part will compare them and order them
+# after the sides of a triangles are set in the dictionary, this next part will be to compare them and order them
 tri_ordered_list = triOrderList(triangles)
 
-print('Ordered list of sides are:')
+print('\nOrdered list of sides are:')
 for keys in tri_ordered_list:
     print(f'{triangles[keys]} ')
 
