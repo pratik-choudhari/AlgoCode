@@ -23,9 +23,18 @@ class ABC {
     // Driver code 
     public static void Main() 
     { 
-        int[] arr = { 5, 4, 6, 2, 1, 3, 8, 9, 7 }; 
-        int n = arr.Length; 
+        int i;
+        int[] x = new int[5]; // 5 size array
+
+        // Accepting value from user 
+        for (i = 0; i < 5; i++)
+          {
+                Console.Write("\nEnter your "+(i+1)+ " number: ");
+                //Storing value in an array
+                x[i] = Convert.ToInt32(Console.ReadLine());
+          }
+        int n = x.Length; 
           
-        printOrder(arr, n); 
+        printOrder(x, n); 
     } 
 } 
