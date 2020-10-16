@@ -8,6 +8,9 @@ public class HarshadNumber{
     }
     //method to check given number is Harshad or not
     private boolean isHarshadNumber(){
+        if(input == 0){
+            return false;
+        }
         String string_input = String.valueOf(input);
         int sum = 0,result = 0;
         if(string_input.equals("0")){
