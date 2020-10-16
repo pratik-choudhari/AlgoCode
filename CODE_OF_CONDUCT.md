@@ -6,3 +6,4 @@
 * Keep the Descriptions of PR and Issues as brief as possible.
 * Use of foul language is not allowed.
 * In case someone notices use of inappropriate language they must tag any moderator ASAP.
+* If incomplete PRs are not completed in 10 days they will be closed. 
