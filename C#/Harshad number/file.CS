@@ -2,7 +2,7 @@
 
 using System; 
 
-public class GFG { 
+public class HN { 
 
 	// method to check Harshad Number 
 	static bool checkHarshad(int n) 
@@ -21,8 +21,8 @@ public class GFG {
 	// Driver program to test above functions 
 	public static void Main() 
 	{ 
-		Console.WriteLine(checkHarshad(12) ? "Yes" : "No"); 
-
-		Console.WriteLine(checkHarshad(15) ? "Yes" : "No"); 
+		Console.WriteLine("\nEnter number: "); 
+		int n = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine(checkHarshad(n) ? "Yes" : "No"); 
 	} 
 } 
