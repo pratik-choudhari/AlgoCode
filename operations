@@ -1,0 +1,54 @@
+n=int(input())
+a=input()
+a=a.split()
+even=[]
+odd=[]
+s=0
+afinal=[]
+count=[]
+wr=[]
+r=[]
+arr=[]
+
+for i in range(n):
+    k=int(a[i])
+    afinal.append(k)
+    s=s+k
+
+    if k % 2== 0:
+       even.append(k)
+    else:
+        odd.append(k)
+
+max=max(afinal)
+min=min(afinal)
+
+while len(afinal)>0:
+    e=afinal[0]
+    n= afinal.count(e)
+    arr.append(e)
+    count.append(n)
+    if n>1:
+        r.append(e)
+    else:
+        wr.append(e)
+    k=0
+    for k in range(n):
+        afinal.remove(e)
+
+
+
+
+print( "Smallest number:" + str(min))
+
+print( "Largest number:"+ str(max))
+
+print( "Sum of elements:" +str(s))
+print("Frequency of elements:")
+for i in range(len(arr)):
+    print(str(arr[i])+"-"+str(count[i]))
+
+print("Count of distinct elements: "+str(len(wr)))
+print("Count of repeating elements: "+str(len(r)))
+print( "Count of even elements: "+ str(len(even)))
+print( "Count of odd elements:"+ str(len(odd)))
