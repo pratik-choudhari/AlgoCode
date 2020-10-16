@@ -1,6 +1,6 @@
 # Scrape CodeChef's Problems
 
-This project scrapes the problem's information with the given problem code from the user, and saves all of this information in a text-based file.
+This project scrapes CodeChef's Problems Description according to the Problem Code given by a user and saves all the important information in a text file.
 
 ## Getting started
 
@@ -8,7 +8,7 @@ To get started, install the required packages present in `requirements.txt`:
 
 	$ pip install -r requirements.txt
 
-And everything is ready to start scrapping your problems~~``:
+And everything is ready to start scrapping your problems:
 
 	$ python main.py PROBLEM_CODE
 

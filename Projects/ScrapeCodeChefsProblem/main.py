@@ -130,9 +130,7 @@ class CodeChefProblem():
         }
         description = self._remove_start(description, unwanted_sentences["start"])
         description = self._remove_end(description, unwanted_sentences["end"])
-        description = BeautifulSoup(description, "lxml").text
-
-        return description
+        return BeautifulSoup(description, "lxml").text
 
     def _remove_start(self, text: str, unwanted_sentence: dict) -> str:
         if text.startswith(unwanted_sentence["startswith"]):
