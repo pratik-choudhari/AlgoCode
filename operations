@@ -1,5 +1,9 @@
 n=int(input())
 a=input()
+
+#split is inbuilt method used for list to break its components with whitesms
+
+
 a=a.split()
 even=[]
 odd=[]
