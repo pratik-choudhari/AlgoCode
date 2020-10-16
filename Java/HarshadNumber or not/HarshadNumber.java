@@ -1,10 +1,12 @@
 import java.util.*;
 
 public class HarshadNumber{
+    //take input from user
     int input;
     HarshadNumber(int input){
         this.input = input;
     }
+    //method to check given number is Harshad or not
     private boolean isHarshadNumber(){
         String string_input = String.valueOf(input);
         int sum = 0,result = 0;
@@ -22,8 +24,7 @@ public class HarshadNumber{
         return false;
     }
     public static void main(String args[]){
-        Scanner scan = null
-        		;
+        Scanner scan = null;
     	try{
         	scan = new Scanner(System.in);
         }catch(Exception e) {
@@ -36,7 +37,6 @@ public class HarshadNumber{
         }
         else{
             System.out.println(in + " is not HarshadNumber");
-        }
-        
+        }  
     }
 }
