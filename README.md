@@ -28,7 +28,7 @@ Hey there!👋
 ## What can you do here?🧐
 * You can solve questions put up by contributors (tag moderators in comment to assign an issue to you and mention the language you will be using).
 * You can put up a problem yourself.
-* You can even contribute a project made by yourself!
+* You can even contribute a project made by you!
 
 ## New to github? No problem :)🆕
 * Git and github crash course by TraversyMedia: [Youtube](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
