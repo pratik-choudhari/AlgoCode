@@ -9,5 +9,14 @@ score will reset.
 ### To run - 
 Simply open the game.index file in a browser. 
 
+### Screenshots-
+
+1. Homescreen of the game
+
+![](images/homescreen.png)
+
+2. Gameplay screenshot: Black = player, red = enemy CPU, green = food
+![](images/gameplay.png)
+
 ## Contributor
 [Shayan Halder](https://github.com/shayanhalder)
