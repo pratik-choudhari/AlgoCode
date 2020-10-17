@@ -1,4 +1,4 @@
-Hi, I'm [Cyrielle Meyrueix](https://github.com/cmeyrueix4)!
+Hi, I'm [Cyrielle Meyrueix](http://github.com/cmeyrueix4)!
 
 ####Description
 This is a program to encode and decode morse code. 
