@@ -22,3 +22,5 @@ __Total = Standard + Luxury__
 Type the follow commands - 
 - python solution.py
 - Enter the input based on the input format and message shown.
+#Author
+__Shubham Nagure__
