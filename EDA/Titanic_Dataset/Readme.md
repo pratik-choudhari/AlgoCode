@@ -25,4 +25,4 @@ The titanic dataset consists of three files which can be found in the dataset fo
 | Embarked | Port of embarkation |
 
 ### More detailed explanation
-More detailed explanation about the dataset can be found here https://www.kaggle.com/c/titanic
+Dataset can be found here https://www.kaggle.com/c/titanic
