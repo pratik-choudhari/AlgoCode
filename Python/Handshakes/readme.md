@@ -1,0 +1,1 @@
+Simple pm counts number of handshakes where number of people is given.
