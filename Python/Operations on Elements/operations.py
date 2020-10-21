@@ -48,7 +48,7 @@ while len(afinal)>0:
 
 
 
-
+#print answers
 print( "Smallest number:" + str(min))
 print( "Largest number:"+ str(max))
 print( "Sum of elements:" +str(s))
