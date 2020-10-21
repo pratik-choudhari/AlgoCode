@@ -30,7 +30,7 @@ prompt.get(properties, function (error, result) {
     console.log("Operator: " + result.operator);
     console.log("Answer is");
     if (result.operator === '+') {
-        return console.log(result.firstInteger + " + " + result.secondInteger + " = " + parseInt(result.firstInteger) + parseInt(result.secondInteger));
+        return console.log(result.firstInteger + " + " + result.secondInteger + " = " + (parseInt(result.firstInteger) + parseInt(result.secondInteger)));
     } else if (result.operator === '-') {
         return console.log(result.firstInteger + " - " + result.secondInteger + " = " + (parseInt(result.firstInteger) - parseInt(result.secondInteger)));
     } else if (result.operator === '*') {
