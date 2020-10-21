@@ -21,3 +21,5 @@ Input:
 Enter the location of the zipfile or the folder to be zipped:  
 /home/person/example/abc.zip
 ```
+
+Author: [Ayesh Weerasinghe](https://github.com/AyeshW)
