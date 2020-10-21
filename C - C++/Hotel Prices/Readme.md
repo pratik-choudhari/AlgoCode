@@ -33,3 +33,6 @@ Type the follow commands -
 - g++ HotelPrices.cpp
 - ./a.out
 - Enter the input based on the input format
+
+#### Contributed by
+[Manoj G Rao](https://github.com/manojrao3619)
