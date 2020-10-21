@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Properties;
+import java.util.Scanner;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
@@ -71,6 +72,7 @@ public class FileCompressionHandler {
         fileInputStream.close();
         zout.closeEntry();
     }
+
     // ------------------------------- unzipping ------------------------------------
     public static void unzipFile(String zipFilePath) {
         // identify the output directory
@@ -149,7 +151,16 @@ public class FileCompressionHandler {
     }
 
     public static void main(String[] args) {
-        //unzipFile("/home/ayesh/Desktop/example/hello.zip");
-        zipFolder("/home/ayesh/Desktop/example");
+
+        // the location should be the absolute path to the zipfile or to the folder to be zipped
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the location of the zipfile or the folder to be zipped: ");
+        String source = scanner.nextLine();
+
+        if (source.endsWith(".zip")) {
+            unzipFile(source);
+        } else {
+            zipFolder(source);
+        }
     }
 }
