@@ -3,6 +3,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -27,15 +29,24 @@ public class FileCompressionHandler {
             ZipInputStream zipInputStream = new ZipInputStream(fileInputStream);
             ZipEntry zipEntry = zipInputStream.getNextEntry();
 
-            if (zipEntry != null) {
-                while (zipEntry != null) {
-                    String fileName = zipEntry.getName();
-                    File newFile = new File(destDir + File.separator + fileName);
+            while (zipEntry != null) {
+
+                boolean isDirectory = false;
+                if (zipEntry.getName().endsWith(File.separator)){
+                    isDirectory = true;
+                }
+
+                String fileName = zipEntry.getName();
+                //File newFile = new File(destDir + File.separator + fileName);
+                File newFile = protectZipSlip(fileName, destDir);
+
+                if (isDirectory) {
+                    // Creating directories
+                    System.out.println("Create Directory " + fileName);
+                    newFile.mkdirs();
+                } else {
                     System.out.println("Unzipping to " + newFile.getAbsolutePath());
 
-                    //create directories for sub directories in zip
-                    File parent = new File(newFile.getParent());
-                    parent.mkdir();
                     FileOutputStream fileOutputStream = new FileOutputStream(newFile);
 
                     int len;
@@ -43,12 +54,11 @@ public class FileCompressionHandler {
                         fileOutputStream.write(buffer, 0, len);
                     }
                     fileOutputStream.close();
-                    //close this ZipEntry
-                    zipInputStream.closeEntry();
-                    zipEntry = zipInputStream.getNextEntry();
                 }
-            } else {
-                System.out.print("Empty Zip file received.");
+
+                //close this ZipEntry
+                zipInputStream.closeEntry();
+                zipEntry = zipInputStream.getNextEntry();
             }
 
             //close last ZipEntry
@@ -61,7 +71,20 @@ public class FileCompressionHandler {
 
     }
 
+    public static File protectZipSlip(String fileName, String destDir) throws IOException{
+        Path destPath = Paths.get(destDir);
+        Path resolvedDest = destPath.resolve(fileName);
+        Path normalizedPath = resolvedDest.normalize();
+
+        // checking whether zipEntry filename has changed the destination
+        if (!normalizedPath.startsWith(destDir)) {
+            throw new IOException("Malicious zip entry found: " + fileName);
+        }
+
+        File newFile = normalizedPath.toFile();
+        return newFile;
+    }
     public static void main(String[] args) {
-        unzip("/home/ayesh/Desktop/example/lab3_160453M_160671L.zip", "/home/ayesh/Desktop/example/");
+        unzip("/home/ayesh/Desktop/example/hello.zip", "/home/ayesh/Desktop/");
     }
 }
