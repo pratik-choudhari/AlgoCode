@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import View from './components/View';
 
 class App extends React.Component {
