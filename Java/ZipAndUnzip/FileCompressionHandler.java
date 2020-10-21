@@ -8,22 +8,82 @@ import java.nio.file.Paths;
 import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
 
 public class FileCompressionHandler {
+    // ----------------------------------- zipping ---------------------------------------
+    public static void zipFolder(String folderPath) {
+        // identify the output directory
+        try {
+            File inputFolder = new File(folderPath);
+            String outputFile = inputFolder.getAbsolutePath() + ".zip";
+            System.out.println("Started zipping to " + outputFile);
 
-    public void zip(String folderPath) {
+            FileOutputStream fileOutputStream = new FileOutputStream(outputFile);
+            ZipOutputStream zipOutputStream = new ZipOutputStream(fileOutputStream);
+
+            recursiveZip(inputFolder, inputFolder.getName(), zipOutputStream);
+            zipOutputStream.close();
+            fileOutputStream.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Zipping Completed Successfully");
 
     }
 
-    public static void unzip(String zipFilePath, String destDir) {
+    public static void recursiveZip(File inputFile, String fileName, ZipOutputStream zout) throws IOException{
+        if (inputFile.isHidden()) {
+            return;
+        }
+
+        if (inputFile.isDirectory()) {
+            ZipEntry zipEntry = null;
+            if (fileName.endsWith("/")) {
+                zipEntry = new ZipEntry(fileName);
+            } else {
+                zipEntry = new ZipEntry(fileName + "/");
+            }
+
+            zout.putNextEntry(zipEntry);
+            zout.closeEntry();
+
+            File[] childFiles = inputFile.listFiles();
+            for (File childFile: childFiles) {
+                recursiveZip(childFile, fileName + "/" + childFile.getName(), zout);
+            }
+
+            return;
+        }
+
+        // handling termination condition for non-directory single file
+        ZipEntry zipEntry = new ZipEntry(fileName);
+        zout.putNextEntry(zipEntry);
+        FileInputStream fileInputStream = new FileInputStream(inputFile);
+
+        byte[] buffer = new byte[1024];
+        int len;
+        while ((len = fileInputStream.read(buffer)) >= 0) {
+            zout.write(buffer, 0, len);
+        }
+        fileInputStream.close();
+        zout.closeEntry();
+    }
+    // ------------------------------- unzipping ------------------------------------
+    public static void unzipFile(String zipFilePath) {
+        // identify the output directory
+        File inputFile = new File(zipFilePath);
+        String destDir = inputFile.getParent();
         File dir = new File(destDir);
+
         // create output directory if it doesn't exist
         if (!dir.exists()) {
             dir.mkdirs();
         }
         FileInputStream fileInputStream;
-        //buffer for read and write data to file
-        byte[] buffer = new byte[1024];
+
         try {
             fileInputStream = new FileInputStream(zipFilePath);
             ZipInputStream zipInputStream = new ZipInputStream(fileInputStream);
@@ -49,6 +109,8 @@ public class FileCompressionHandler {
 
                     FileOutputStream fileOutputStream = new FileOutputStream(newFile);
 
+                    //buffer for read and write data to file
+                    byte[] buffer = new byte[1024];
                     int len;
                     while ((len = zipInputStream.read(buffer)) > 0) {
                         fileOutputStream.write(buffer, 0, len);
@@ -69,6 +131,7 @@ public class FileCompressionHandler {
             e.printStackTrace();
         }
 
+        System.out.println("Unzipping Completed Successfully");
     }
 
     public static File protectZipSlip(String fileName, String destDir) throws IOException{
@@ -84,7 +147,9 @@ public class FileCompressionHandler {
         File newFile = normalizedPath.toFile();
         return newFile;
     }
+
     public static void main(String[] args) {
-        unzip("/home/ayesh/Desktop/example/hello.zip", "/home/ayesh/Desktop/");
+        //unzipFile("/home/ayesh/Desktop/example/hello.zip");
+        zipFolder("/home/ayesh/Desktop/example");
     }
 }
