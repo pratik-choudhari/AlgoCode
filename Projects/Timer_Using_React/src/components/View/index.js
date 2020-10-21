@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import "antd/dist/antd.css";
 import { StyledClock, StyledTable, StyledTableDiv, StyledButtonRender, StyledRow, StyledSecRow, StyledSecCol, StyledCol, StyledDiv, StyledStartButton, StyledResetButton, StyledStopButton, StyledSpan } from './styles';
