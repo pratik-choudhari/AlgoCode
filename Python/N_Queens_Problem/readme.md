@@ -8,4 +8,4 @@ Uses backtracking.
 `$ python3 main.py`
 
 ### Author
-[argha-dot](https://github.com/ShraxO1)
+[ShraxO1](https://github.com/ShraxO1)
