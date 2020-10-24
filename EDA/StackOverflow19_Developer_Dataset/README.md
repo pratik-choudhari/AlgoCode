@@ -18,3 +18,5 @@ Stack Overflow’s Developer Survey Dataset is an annual comprehensive survey of
 - On performing data cleaning a secondary CSV is generated called Clean_Dataset.csv whoch is further used for visualisations.
 <br>
 (both these CSV files must be stored in a subfolder called datasets of the root project folder)
+
+To run the notebook codes you must install all dependencies/packages from requirements.txt!
