@@ -20,8 +20,8 @@ public class TowerOfHanoi {
 	public static void main (String[] args) {
 		Scanner scannerObj = new Scanner(System.in);
 		String[] values = scannerObj.nextLine().split(" ");
-		int n = Integer.parseInt(values[0]);
-		tower(n, values[1], values[2], values[3]);
+		int n = Integer.parseInt(values[0]); // converts number of towers into integer
+		tower(n, values[1], values[2], values[3]); // further values [names of towers] are used to represent towers
 		System.out.println("It took " + (int) (Math.pow(2, n)-1) + " steps in total");
 		
 	}
