@@ -9,6 +9,8 @@ For finding the maximum scalar product of arrays we need to multiply the minimum
 
 Hint: Here we need to sort the array1 and array2 in ascending order and ascending order respectively.
 
+## Code
+Code can be seen [here](https://github.com/MAHIMA01/AlgoCode/blob/Mahima-update/Java/Scalar%20Product/ScalerProduct.java).
 
 ## Sample Input
 Enter no. of elements you want in array: 4
