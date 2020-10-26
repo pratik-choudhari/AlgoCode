@@ -5,4 +5,4 @@ def fact(a,b):
     return (s)
 n=int(input("Enter the num of people: "))
 m=int(input("Enter the number of seats available: "))
-print(fact(m,n))
+print("Num of ways people can be seated:",fact(m,n))
