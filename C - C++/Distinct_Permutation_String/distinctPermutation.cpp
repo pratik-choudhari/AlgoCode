@@ -1,47 +1,51 @@
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <iostream>
+#include <string>
 using namespace std;
 
-// Returns true if str[curr] does not matches with any of the
-// characters after str[start]
-bool shouldSwap(char str[], int start, int curr)
-{
-	for (int i = start; i < curr; i++) 
-		if (str[i] == str[curr])
-			return 0;
-	return 1;
-}
+// count of total permutations
+int total = 0;
 
-// Prints all distinct permutations in str[0..n-1]
-void findPermutations(char str[], int index, int n)
+void permute(int i, string s)
 {
-	if (index >= n) {
-		cout << str << endl;
+	// base case
+	if (i == (s.length() - 1)) {
+		cout << s << endl;
+		total++;
 		return;
 	}
 
-	for (int i = index; i < n; i++) {
+	char prev = '*';
 
-		// Proceed further for str[i] only if it 
-		// doesn't match with any of the characters
-		// after str[index]
-		bool check = shouldSwap(str, index, i);
-		if (check) {
-			swap(str[index], str[i]);
-			findPermutations(str, index + 1, n);
-			swap(str[index], str[i]);
+	// loop from j = 1 to length of string
+	for (int j = i; j < s.length(); j++) {
+		string temp = s;
+		if (j > i && temp[i] == temp[j])
+			continue;
+		if (prev != '*' && prev == s[j]) {
+			continue;
 		}
+	
+		// swap the elements
+		swap(temp[i], temp[j]);
+		prev = s[j];
+	
+		// recursion call
+		permute(i + 1, temp);
 	}
 }
 
 int main()
 {
-    int n;
-    cout<<"Enter the length of the String";
-    cin>>n;
-    char str[n];
-    cout<<"Enter String \n";
-	  cin>>str;
-    cout<<"Permutations are : \n";
-	  findPermutations(str, 0, n);
-  	return 0;
+	string s;
+	cin >> s;
+	// sort
+	sort(s.begin(), s.end());
+
+	// Function call
+	permute(0, s);
+	cout << "Total distinct permutations = " << total
+		<< endl;
+	return 0;
 }
+
