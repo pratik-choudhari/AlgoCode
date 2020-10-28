@@ -2,9 +2,9 @@
 We are given a string ,the problem is to find out all the distinct possible permutations of the string. 
 
 ### Time Complexity
-f we take the length of string to be N, then the complexity of my code will be O(N log N) \
-for sorting and O(N*N!) for the permutation. 
-Total time complexity would be O(N log N + N*N!) which is effectively only O(N*N!).
+If we take the length of string to be N, then the complexity of the code will be O(N log N) \
+for sorting and O( N * N! ) for the permutation. 
+Total time complexity would be O(N log N + N * N!) which is effectively only O(N * N!).
 
 ### Samaple Input 
 abca
