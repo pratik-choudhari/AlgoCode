@@ -1,4 +1,5 @@
-##Binary Indexed Tree  
+#Binary Indexed Tree  
+### Contributed by [Manan Shah](https://github.com/cs-mshah"cs-mshah")
 
 This tree very efficiently calculates prefix sums and updates the array, both in **O(logn)** time.  
 
