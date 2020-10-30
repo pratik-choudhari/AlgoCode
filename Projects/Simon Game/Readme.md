@@ -17,7 +17,15 @@ Simply open the index.html file in a browser.
 
 1. Homescreen of the game
 
+![](Projects/Simon Game/images/Home Page.png)
 
+2. In Game
+
+![](Projects/Simon Game/images/In Game.png)
+
+3. Game Over
+
+![](Projects/Simon Game/images/Game Over.png)
 
 ## Contributor
 [Nishit Khaitan](https://github.com/Nishitk-20)
