@@ -4,9 +4,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 
-![](https://img.shields.io/badge/Josh-High-Red)
-![](https://img.shields.io/badge/Maintained-Yes-orange)
-![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
+![](https://img.shields.io/badge/Maintained-No-orange)
+![](https://img.shields.io/badge/PRs-OnHold-brightgreen)
 ![](https://img.shields.io/github/issues/pratik-choudhari/algocode)
 ![](https://img.shields.io/github/stars/pratik-choudhari/algocode)
 ![](https://img.shields.io/github/contributors/pratik-choudhari/algocode)
