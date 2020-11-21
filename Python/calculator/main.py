@@ -21,7 +21,10 @@ def rest(left: int, right: int) -> int:
   return left - right
 
 def _div(left: int, right: int) -> int:
-  return left / right
+  if left == 0 or right == 0:  # This is an important thing too, so the the code don't outcome an error
+     print('Unable to divide by zero')
+  else:
+     return left / righ
 
 def mul(left: int, right: int) -> int:
   return left * right
