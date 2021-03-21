@@ -141,4 +141,4 @@ __Note that a problem can be solved in above mentioned languages unless any lang
 Got something interesting to talk about? Let's connect
 
 <a href="https://www.linkedin.com/in/pratik-choudhari/"><img src="https://hackernoon.com/images/PrB8ElNwFUY9FJD7Kw2aUJtm1UW2-cjw12i45.gif" align="left" height="52" width="52" ></a>
-<a href="https://github.com/pratik-choudhari/"><img src="https://radicalpenguin.me/blog/wp-content/uploads/2014/03/daftpunktocat-guy1.gif" align="left" height="52" width="52" ></a>
+<a href="https://github.com/pratik-choudhari/"><img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" align="left" height="52" width="52" ></a>
